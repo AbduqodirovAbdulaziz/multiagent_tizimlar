@@ -106,8 +106,8 @@
                         style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                         <option value="">-- Bemor tanlang --</option>
                         {% for patient in patients %}
-                        <option value="{{ patient.id }}">{{ patient.get_full_name }} ({{ patient.get_age }} yosh, {{
-                            patient.get_gender_display }})</option>
+                        <option value="{{ patient.id }}">{{ patient.get_full_name }} ({{ patient.get_age }} yosh)
+                        </option>
                         {% endfor %}
                     </select>
                     <small style="color: #666;">Agar bemor yo'q bo'lsa, <a href="/admin/patients/patient/add/"
