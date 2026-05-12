@@ -1,0 +1,11 @@
+from django.apps import AppConfig
+
+
+class DiagnosticsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'apps.diagnostics'
+    verbose_name = 'Diagnostics'
+    
+    def ready(self):
+        """Import signals when app is ready."""
+        import apps.diagnostics.signals

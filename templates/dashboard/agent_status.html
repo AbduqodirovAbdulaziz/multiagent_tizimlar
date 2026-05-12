@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Agentlar Holati - Medical MAS{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+    <h1>Agentlar Holati</h1>
+
+    {% for agent in agents %}
+    <div style="background: white; border-radius: 8px; padding: 20px; margin: 20px 0;">
+        <h2>{{ agent.agent_name }}</h2>
+        <p><strong>Holat:</strong> <span class="agent-status {{ agent.state|lower }}">{{ agent.get_state_display
+                }}</span></p>
+
+        {% if agent.current_task %}
+        <p><strong>Hozirgi vazifa:</strong> {{ agent.current_task }}</p>
+        {% endif %}
+
+        <p><strong>Oxirgi faoliyat:</strong> {{ agent.last_activity|date:"d.m.Y H:i:s" }}</p>
+
+        {% if agent.metadata %}
+        <details>
+            <summary style="cursor: pointer; color: #1976d2;">Metadata</summary>
+            <pre
+                style="background: #f5f5f5; padding: 10px; border-radius: 4px; margin-top: 10px;">{{ agent.metadata|pprint }}</pre>
+        </details>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+    <a href="{% url 'dashboard:index' %}"
+        style="display: inline-block; padding: 10px 20px; background: #1976d2; color: white; text-decoration: none; border-radius: 4px;">←
+        Orqaga</a>
+</div>
+{% endblock %}

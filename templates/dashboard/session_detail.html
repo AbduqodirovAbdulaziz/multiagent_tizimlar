@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Session {{ session.session_id }} - Medical MAS{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+    <h1>Diagnostika Sessiyasi</h1>
+    <p><code>{{ session.session_id }}</code></p>
+
+    <div style="background: white; border-radius: 8px; padding: 20px; margin: 20px 0;">
+        <h2>Bemor Ma'lumotlari</h2>
+        <p><strong>Ism:</strong> {{ session.patient.get_full_name }}</p>
+        <p><strong>Yosh:</strong> {{ session.patient.get_age }} yosh</p>
+        <p><strong>Jins:</strong> {{ session.patient.get_gender_display }}</p>
+    </div>
+
+    <div style="background: white; border-radius: 8px; padding: 20px; margin: 20px 0;">
+        <h2>Simptomlar</h2>
+        <ul>
+            {% for symptom in session.symptoms %}
+            <li>{{ symptom }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div style="background: white; border-radius: 8px; padding: 20px; margin: 20px 0;">
+        <h2>Diagnostika Natijalari</h2>
+        {% for result in results %}
+        <div style="border: 1px solid #eee; padding: 15px; margin: 10px 0; border-radius: 4px;">
+            <h3>{{ result.disease.name }}</h3>
+            <p><strong>Ishonch darajasi:</strong> {{ result.get_confidence_percentage|floatformat:1 }}%</p>
+            <p><strong>Og'irlik:</strong> {{ result.disease.get_severity_display }}</p>
+            <p>{{ result.disease.description }}</p>
+
+            {% if result.treatment_plan %}
+            <h4>Davolash Rejasi:</h4>
+            <pre
+                style="background: #f5f5f5; padding: 10px; border-radius: 4px; white-space: pre-wrap;">{{ result.treatment_plan }}</pre>
+            {% endif %}
+        </div>
+        {% empty %}
+        <p style="color: #999;">Natijalar hali yo'q</p>
+        {% endfor %}
+    </div>
+
+    <a href="{% url 'dashboard:index' %}"
+        style="display: inline-block; padding: 10px 20px; background: #1976d2; color: white; text-decoration: none; border-radius: 4px;">←
+        Orqaga</a>
+</div>
+{% endblock %}

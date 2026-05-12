@@ -1,0 +1,11 @@
+-r base.txt
+
+# Production Server
+gunicorn>=21.2.0
+whitenoise>=6.5.0
+
+# Monitoring & Logging
+sentry-sdk>=1.32.0
+
+# Security
+django-csp>=3.7
