@@ -1781,3 +1781,13 @@ INFO 2026-05-12 14:28:55,951 basehttp 11184 11252 "GET /admin/ HTTP/1.1" 200 733
 INFO 2026-05-12 14:29:02,122 basehttp 11184 11252 "GET /admin/agents/agentstate/ HTTP/1.1" 200 47729
 INFO 2026-05-12 14:29:02,354 basehttp 11184 11252 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
 INFO 2026-05-12 14:54:25,455 basehttp 11184 10508 "GET / HTTP/1.1" 200 54788
+INFO 2026-05-12 14:54:31,771 basehttp 11184 10508 "GET /session/session-2d0ac2b306054314/ HTTP/1.1" 200 21249
+INFO 2026-05-12 15:14:37,197 autoreload 11184 19000 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 15:14:40,232 autoreload 18800 16220 Watching for file changes with StatReloader
+INFO 2026-05-12 15:15:55,188 autoreload 18800 16220 D:\MULTIAGENT\config\settings\base.py changed, reloading.
+INFO 2026-05-12 15:15:56,491 autoreload 16640 13924 Watching for file changes with StatReloader
+INFO 2026-05-12 15:16:09,054 autoreload 16640 13924 D:\MULTIAGENT\config\settings\base.py changed, reloading.
+INFO 2026-05-12 15:16:10,017 autoreload 7588 9284 Watching for file changes with StatReloader
+INFO 2026-05-12 15:35:58,869 autoreload 7588 9284 D:\MULTIAGENT\config\settings\base.py changed, reloading.
+INFO 2026-05-12 15:36:00,052 autoreload 14848 22460 Watching for file changes with StatReloader
+INFO 2026-05-12 15:36:01,954 autoreload 14848 22460 D:\MULTIAGENT\config\settings\base.py changed, reloading.
