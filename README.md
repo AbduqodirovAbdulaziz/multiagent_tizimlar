@@ -16,47 +16,27 @@ Bu loyiha sog'liqni saqlash sohasida multiagent tizim (MAS) kontseptsiyasini Dja
 
 ### Texnologiyalar
 
-- **Backend**: Python 3.11+, Django 5.x, Django REST Framework
-- **Database**: PostgreSQL (asosiy), Redis (xabar navbatlari)
-- **Asinxron**: Celery + Redis
+- **Backend**: Python 3.10.1, Django 4.2.30 LTS, Django REST Framework
+- **Database**: SQLite3 (development), PostgreSQL (production)
 - **Frontend**: Django Templates + HTMX
-- **Testing**: pytest-django, factory_boy
-- **Deployment**: PythonAnywhere / Heroku / VPS
+- **Admin Panel**: Django Jazzmin
+- **Testing**: pytest-django
+- **Deployment**: PythonAnywhere (free tier compatible)
 
 ## Tezkor Ishga Tushirish
 
 ### 1. Muhit sozlash
 
 ```bash
-# Virtual environment yaratish
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# Virtual environment yaratish (Python 3.10.1)
+python -m venv venv310
+venv310\Scripts\activate  # Windows
 
 # Bog'liqliklarni o'rnatish
 pip install -r requirements/dev.txt
 ```
 
-### 2. PostgreSQL va Redis o'rnatish
-
-**PostgreSQL:**
-```bash
-# Windows: https://www.postgresql.org/download/windows/
-# PostgreSQL o'rnatilgandan keyin database yarating:
-psql -U postgres
-CREATE DATABASE medical_mas_db;
-CREATE USER medical_mas_user WITH PASSWORD 'medical_mas_2024_secure';
-GRANT ALL PRIVILEGES ON DATABASE medical_mas_db TO medical_mas_user;
-\q
-```
-
-**Redis:**
-```bash
-# Windows: https://github.com/microsoftarchive/redis/releases
-# Redis o'rnatib, redis-server ni ishga tushiring
-redis-server
-```
-
-### 3. Django sozlash
+### 2. Django sozlash
 
 ```bash
 # Migratsiyalar
@@ -68,26 +48,44 @@ python manage.py createsuperuser
 # Static fayllarni yig'ish
 python manage.py collectstatic --noinput
 
-# Development server
-python manage.py runserver
+# Development server (port 8080)
+python manage.py runserver 8080
 ```
 
-### 4. Celery ishga tushirish (ixtiyoriy - agent vazifalar uchun)
+### 3. Tizimdan foydalanish
 
-```bash
-# Celery worker (alohida terminal)
-celery -A config worker -l info
+1. **Admin Panel**: http://127.0.0.1:8080/admin/
+   - Bemorlarni qo'shish va boshqarish
+   - Kasallik naqshlarini boshqarish
+   - Tizim sozlamalari
 
-# Celery beat (alohida terminal)
-celery -A config beat -l info
-```
+2. **Dashboard**: http://127.0.0.1:8080/
+   - Yangi diagnostika boshlash
+   - Sessiyalar va natijalarni ko'rish
+   - Agent holatlari monitoring
+
+3. **API Docs**: http://127.0.0.1:8080/api/docs/ (faqat admin uchun)
+   - API dokumentatsiyasi
+   - Swagger UI
 
 ## API Endpoints
 
-- `POST /api/v1/diagnostics/start/` - Yangi diagnostika sessiyasi
-- `GET /api/v1/diagnostics/{id}/status/` - Agent holati
-- `GET /api/v1/diagnostics/{id}/result/` - Yakuniy natija
-- `GET /api/v1/agents/health/` - Barcha agentlar holati
+### Diagnostika API
+- `POST /api/diagnostics/sessions/` - Yangi diagnostika sessiyasi yaratish
+- `GET /api/diagnostics/sessions/` - Barcha sessiyalarni ko'rish
+- `GET /api/diagnostics/sessions/{id}/` - Sessiya detallari
+- `GET /api/diagnostics/results/` - Diagnostika natijalari
+
+### Bemorlar API
+- `GET /api/patients/` - Bemorlar ro'yxati
+- `GET /api/patients/{id}/` - Bemor detallari
+- `GET /api/patients/{id}/sessions/` - Bemor sessiyalari
+
+### Agentlar API
+- `GET /api/agents/states/` - Barcha agentlar holati
+- `POST /api/agents/coordinate/` - Koordinator agentni ishga tushirish
+
+**Eslatma:** API dokumentatsiya faqat admin foydalanuvchilar uchun ochiq.
 
 ## Testing
 
@@ -100,7 +98,61 @@ pytest --cov=. --cov-report=html
 
 # Muayyan app testlari
 pytest apps/agents/tests/
+
+# Django shell orqali test
+python manage.py shell
 ```
+
+## Diagnostika Jarayoni
+
+### 1. Bemor Qo'shish
+Admin panelda yangi bemor qo'shing:
+- Shaxsiy ma'lumotlar (ism, familiya, tug'ilgan sana)
+- Tibbiy ma'lumotlar (qon guruhi, allergiyalar, surunkali kasalliklar)
+- Aloqa ma'lumotlari
+
+### 2. Diagnostika Boshlash
+Dashboard'da diagnostika formasini to'ldiring:
+- Bemorni tanlang
+- Simptomlarni checkbox orqali belgilang (40+ simptom, 7 kategoriya)
+- Haroratni kiriting (ixtiyoriy)
+- "Diagnostika Boshlash" tugmasini bosing
+
+### 3. Agent Jarayoni
+Tizim avtomatik ravishda quyidagi agentlarni ishga tushiradi:
+1. **SymptomAgent** - Simptomlarni tahlil qiladi va kategoriyalaydi
+2. **AnalysisAgent** - Tibbiy tahlillarni baholaydi
+3. **DiagnosisAgent** - Kasallik diagnozini aniqlaydi
+4. **TreatmentAgent** - Davolash rejasini taklif qiladi
+5. **CoordinatorAgent** - Barcha jarayonni muvofiqlashtiradi
+
+### 4. Natijalarni Ko'rish
+- Diagnostika yakunlangandan keyin natijalar sahifasiga yo'naltirilasiz
+- Har bir diagnoz uchun ishonch darajasi ko'rsatiladi
+- Tavsiya etilgan davolash rejasi va tahlillar
+
+## Xususiyatlar
+
+### ✅ Amalga Oshirilgan
+- 5 ta ixtisoslashtirilgan agent
+- FIPA-ACL kommunikatsiya protokoli
+- BDI (Belief-Desire-Intention) arxitektura
+- 40+ simptom, 7 kategoriya
+- Kasallik naqshlari bazasi (5 ta kasallik)
+- Admin panel (Django Jazzmin)
+- Dashboard monitoring
+- RESTful API
+- Diagnostika sessiyalari
+- Natijalar tahlili
+
+### 🔄 Kelajakda Qo'shilishi Mumkin
+- Real-time agent monitoring (WebSocket)
+- Tibbiy tahlillar integratsiyasi
+- Machine Learning modellari
+- Bemor tarixi tahlili
+- PDF export funksiyasi
+- Email bildirishnomalar
+- Multi-language support
 
 ## Loyiha Strukturasi
 
