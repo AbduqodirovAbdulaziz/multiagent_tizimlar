@@ -1,0 +1,56 @@
+﻿{% extends "base.html" %}
+{% block title %}Agent: {{ agent.agent_name }}{% endblock %}
+{% block extra_css %}
+<style>
+.card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+.back-btn { display: inline-block; padding: 8px 18px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; margin-bottom: 20px; }
+.badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.badge-IDLE { background: #e9ecef; color: #495057; }
+.badge-PROCESSING { background: #cfe2ff; color: #084298; }
+.badge-COMPLETED { background: #d1e7dd; color: #0f5132; }
+.badge-FAILED { background: #f8d7da; color: #842029; }
+.log-item { padding: 10px; border-bottom: 1px solid #f0f0f0; font-size: 13px; }
+.log-INFO { border-left: 3px solid #0d6efd; padding-left: 10px; }
+.log-ERROR { border-left: 3px solid #dc3545; padding-left: 10px; background: #fff5f5; }
+.log-WARNING { border-left: 3px solid #ffc107; padding-left: 10px; }
+.log-time { font-size: 11px; color: #6c757d; }
+.msg-item { padding: 10px; border-bottom: 1px solid #f0f0f0; font-size: 13px; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <a href="{% url 'agents:agent_list' %}" class="back-btn">← Orqaga</a>
+  <div class="card">
+    <h3>🤖 {{ agent.agent_name }}</h3>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
+      <div><label style="font-size:12px;color:#6c757d;font-weight:600;text-transform:uppercase;">Holat</label><p><span class="badge badge-{{ agent.state }}">{{ agent.state }}</span></p></div>
+      <div><label style="font-size:12px;color:#6c757d;font-weight:600;text-transform:uppercase;">Hozirgi Vazifa</label><p>{{ agent.current_task|default:"—" }}</p></div>
+      <div><label style="font-size:12px;color:#6c757d;font-weight:600;text-transform:uppercase;">Oxirgi Faoliyat</label><p>{{ agent.last_activity|date:"d.m.Y H:i" }}</p></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>📋 So'nggi Loglar</h3>
+    {% if logs %}{% for log in logs %}
+    <div class="log-item log-{{ log.level }}">
+      <div class="log-time">{{ log.timestamp|date:"d.m.Y H:i:s" }} — <strong>{{ log.level }}</strong></div>
+      <div>{{ log.message }}</div>
+    </div>
+    {% endfor %}{% else %}<p style="color:#6c757d;">Loglar mavjud emas</p>{% endif %}
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+    <div class="card">
+      <h3>📤 Yuborilgan Xabarlar</h3>
+      {% if sent_messages %}{% for msg in sent_messages %}
+      <div class="msg-item"><strong>→ {{ msg.receiver }}</strong>: {{ msg.performative }}<br><small style="color:#6c757d;">{{ msg.created_at|date:"d.m.Y H:i" }}</small></div>
+      {% endfor %}{% else %}<p style="color:#6c757d;">Xabarlar yo'q</p>{% endif %}
+    </div>
+    <div class="card">
+      <h3>📥 Qabul Qilingan Xabarlar</h3>
+      {% if received_messages %}{% for msg in received_messages %}
+      <div class="msg-item"><strong>← {{ msg.sender }}</strong>: {{ msg.performative }}<br><small style="color:#6c757d;">{{ msg.created_at|date:"d.m.Y H:i" }}</small></div>
+      {% endfor %}{% else %}<p style="color:#6c757d;">Xabarlar yo'q</p>{% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

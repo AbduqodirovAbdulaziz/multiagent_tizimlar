@@ -1,0 +1,51 @@
+﻿{% extends "base.html" %}
+{% block title %}Agent Loglar{% endblock %}
+{% block extra_css %}
+<style>
+.card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+.filter-bar { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.filter-bar select, .filter-bar input { padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
+.filter-bar button { padding: 8px 20px; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer; }
+.log-item { padding: 12px 16px; border-bottom: 1px solid #f0f0f0; font-size: 13px; }
+.log-INFO { border-left: 4px solid #0d6efd; }
+.log-ERROR { border-left: 4px solid #dc3545; background: #fff5f5; }
+.log-WARNING { border-left: 4px solid #ffc107; background: #fffbf0; }
+.log-DEBUG { border-left: 4px solid #6c757d; }
+.log-CRITICAL { border-left: 4px solid #dc3545; background: #fff0f0; font-weight: 600; }
+.level-badge { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; margin-right: 8px; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div style="background:white; padding:24px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.06); margin-bottom:20px;">
+    <h2>📋 Agent Loglar</h2>
+  </div>
+  <div class="filter-bar">
+    <form method="get" style="display:flex;gap:12px;flex-wrap:wrap;">
+      <select name="agent">
+        <option value="">Barcha agentlar</option>
+        {% for name in agent_names %}<option value="{{ name }}" {% if name == selected_agent %}selected{% endif %}>{{ name }}</option>{% endfor %}
+      </select>
+      <select name="level">
+        <option value="">Barcha darajalar</option>
+        {% for lvl in "DEBUG,INFO,WARNING,ERROR,CRITICAL"|split:"," %}<option value="{{ lvl }}" {% if lvl == selected_level %}selected{% endif %}>{{ lvl }}</option>{% endfor %}
+      </select>
+      <button type="submit">Filter</button>
+    </form>
+  </div>
+  <div class="card">
+    {% if logs %}{% for log in logs %}
+    <div class="log-item log-{{ log.level }}">
+      <div>
+        <span class="level-badge">{{ log.level }}</span>
+        <strong>{{ log.agent_name }}</strong>
+        <small style="color:#6c757d;margin-left:8px;">{{ log.timestamp|date:"d.m.Y H:i:s" }}</small>
+      </div>
+      <div style="margin-top:4px;">{{ log.message }}</div>
+    </div>
+    {% endfor %}{% else %}
+    <p style="color:#6c757d;text-align:center;padding:40px;">Loglar mavjud emas</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

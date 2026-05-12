@@ -1,0 +1,47 @@
+﻿{% extends "base.html" %}
+{% block title %}Kasalliklar Bazasi{% endblock %}
+{% block extra_css %}
+<style>
+.page-header { background: white; padding: 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.diseases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.disease-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.2s; }
+.disease-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+.disease-card h3 { font-size: 16px; color: #2c3e50; margin-bottom: 8px; }
+.icd-badge { font-size: 11px; background: #e8eaf6; color: #3949ab; padding: 2px 8px; border-radius: 8px; font-family: monospace; }
+.severity { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; margin-top: 8px; }
+.severity-LOW { background: #d1e7dd; color: #0f5132; }
+.severity-MEDIUM { background: #fff3cd; color: #856404; }
+.severity-HIGH { background: #ffe5d0; color: #c95e00; }
+.severity-CRITICAL { background: #f8d7da; color: #842029; }
+.desc { font-size: 13px; color: #6c757d; margin-top: 8px; line-height: 1.5; }
+.btn-link { display: inline-block; margin-top: 12px; color: #667eea; text-decoration: none; font-size: 13px; font-weight: 500; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h2>🦠 Kasalliklar Bazasi</h2>
+    <p style="color:#6c757d; margin-top:4px;">Jami {{ diseases.count }} ta kasallik ma'lumoti</p>
+  </div>
+  {% if diseases %}
+  <div class="diseases-grid">
+    {% for disease in diseases %}
+    <div class="disease-card">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <h3>{{ disease.name }}</h3>
+        {% if disease.icd_code %}<span class="icd-badge">{{ disease.icd_code }}</span>{% endif %}
+      </div>
+      <span class="severity severity-{{ disease.severity }}">{{ disease.get_severity_display }}</span>
+      <p class="desc">{{ disease.description|truncatechars:100 }}</p>
+      <a href="{% url 'diagnostics:disease_detail' disease.pk %}" class="btn-link">Batafsil →</a>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div style="text-align:center; padding:60px; background:white; border-radius:12px;">
+    <h3 style="color:#6c757d;">Kasalliklar mavjud emas</h3>
+    <p>Admin panelda kasalliklarni qo'shing.</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

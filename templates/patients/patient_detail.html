@@ -1,0 +1,67 @@
+﻿{% extends "base.html" %}
+{% block title %}{{ patient.get_full_name }}{% endblock %}
+{% block extra_css %}
+<style>
+.card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+.info-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+.info-item label { font-size: 11px; color: #6c757d; font-weight: 600; text-transform: uppercase; }
+.info-item p { font-size: 15px; color: #2c3e50; margin-top: 4px; }
+.back-btn { display: inline-block; padding: 8px 18px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; margin-bottom: 20px; }
+.tag { display: inline-block; background: #fee2e2; color: #991b1b; padding: 3px 10px; border-radius: 12px; font-size: 12px; margin: 3px; }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 12px; font-weight: 600; }
+.badge-COMPLETED { background: #d1e7dd; color: #0f5132; }
+.badge-FAILED { background: #f8d7da; color: #842029; }
+.badge-PENDING { background: #fff3cd; color: #856404; }
+.session-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 13px; }
+.link { color: #667eea; text-decoration: none; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <a href="{% url 'patients:patient_list' %}" class="back-btn">← Orqaga</a>
+  <div class="card">
+    <h2 style="font-size:22px; margin-bottom:20px;">👤 {{ patient.get_full_name }}</h2>
+    <div class="info-grid">
+      <div class="info-item"><label>Jinsi</label><p>{{ patient.get_gender_display }}</p></div>
+      <div class="info-item"><label>Yoshi</label><p>{{ patient.get_age }} yosh</p></div>
+      <div class="info-item"><label>Tug'ilgan sana</label><p>{{ patient.date_of_birth|date:"d.m.Y" }}</p></div>
+      <div class="info-item"><label>Qon guruhi</label><p>{{ patient.blood_type|default:"—" }}</p></div>
+      <div class="info-item"><label>Telefon</label><p>{{ patient.phone|default:"—" }}</p></div>
+      <div class="info-item"><label>Email</label><p>{{ patient.email|default:"—" }}</p></div>
+      {% if patient.height %}<div class="info-item"><label>Bo'yi</label><p>{{ patient.height }} sm</p></div>{% endif %}
+      {% if patient.weight %}<div class="info-item"><label>Vazni</label><p>{{ patient.weight }} kg</p></div>{% endif %}
+      {% if patient.get_bmi %}<div class="info-item"><label>BMI</label><p>{{ patient.get_bmi|floatformat:1 }}</p></div>{% endif %}
+    </div>
+    {% if patient.allergies %}
+    <div style="margin-top:16px;"><strong>Allergiyalar:</strong><br>
+    {% for allergy in patient.allergies %}<span class="tag">{{ allergy }}</span>{% endfor %}</div>
+    {% endif %}
+    {% if patient.address %}<p style="margin-top:12px;font-size:14px;color:#6c757d;">📍 {{ patient.address }}</p>{% endif %}
+  </div>
+  {% if diagnostic_sessions %}
+  <div class="card">
+    <h3>🔬 Diagnostika Sessiyalari</h3>
+    {% for session in diagnostic_sessions %}
+    <div class="session-row">
+      <span>{{ session.started_at|date:"d.m.Y H:i" }}</span>
+      <span class="badge badge-{{ session.status }}">{{ session.get_status_display }}</span>
+      <a href="{% url 'dashboard:session_detail' session.session_id %}" class="link">Ko'rish →</a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if medical_history %}
+  <div class="card">
+    <h3>📚 Tibbiy Tarix</h3>
+    {% for hist in medical_history %}
+    <div class="session-row">
+      <span><strong>{{ hist.disease_name }}</strong></span>
+      <span style="color:#6c757d;">{{ hist.diagnosed_at|date:"d.m.Y" }}</span>
+      {% if hist.doctor_name %}<span>Dr. {{ hist.doctor_name }}</span>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

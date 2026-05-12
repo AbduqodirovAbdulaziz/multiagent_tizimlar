@@ -1,0 +1,46 @@
+﻿{% extends "base.html" %}
+{% block title %}Agentlar Holati{% endblock %}
+{% block extra_css %}
+<style>
+.page-header { background: white; padding: 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.agents-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.agent-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-top: 4px solid #667eea; }
+.agent-icon { font-size: 32px; margin-bottom: 12px; }
+.agent-card h3 { font-size: 15px; font-weight: 600; color: #2c3e50; }
+.badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 8px; }
+.badge-IDLE { background: #e9ecef; color: #495057; }
+.badge-PROCESSING { background: #cfe2ff; color: #084298; }
+.badge-COMPLETED { background: #d1e7dd; color: #0f5132; }
+.badge-FAILED { background: #f8d7da; color: #842029; }
+.badge-WAITING { background: #fff3cd; color: #856404; }
+.agent-info { font-size: 12px; color: #6c757d; margin-top: 8px; }
+.btn-sm { display: inline-block; margin-top: 12px; padding: 6px 14px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; font-size: 13px; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h2>🤖 Agent Holatlari</h2>
+    <p style="color:#6c757d; margin-top:4px;">Barcha agentlarning real-vaqt holati</p>
+  </div>
+  {% if agents %}
+  <div class="agents-grid">
+    {% for agent in agents %}
+    <div class="agent-card">
+      <div class="agent-icon">🤖</div>
+      <h3>{{ agent.agent_name }}</h3>
+      <span class="badge badge-{{ agent.state }}">{{ agent.state }}</span>
+      {% if agent.current_task %}<p class="agent-info">Vazifa: {{ agent.current_task }}</p>{% endif %}
+      <p class="agent-info">Oxirgi faoliyat: {{ agent.last_activity|date:"d.m.Y H:i" }}</p>
+      <a href="{% url 'agents:agent_detail' agent.agent_name %}" class="btn-sm">Batafsil</a>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div style="text-align:center; padding:60px; background:white; border-radius:12px;">
+    <h3 style="color:#6c757d;">Agentlar mavjud emas</h3>
+    <p>Diagnostika sessiyasini boshlang, agentlar yaratiladi.</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

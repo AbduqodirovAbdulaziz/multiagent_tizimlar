@@ -1,19 +1,18 @@
+﻿"""
+WSGI config for PythonAnywhere deployment - ISHLAYDI!
+
+PythonAnywhere Web Tab'da WSGI configuration file sifatida ishlatish uchun.
+Bu faylni /var/www/USERNAME_pythonanywhere_com_wsgi.py ga ko'chiring.
 """
-WSGI config for PythonAnywhere deployment
-
-Bu faylni PythonAnywhere Web Tab'da WSGI configuration file sifatida ishlatish kerak.
-
-Path: /var/www/multiagent_pythonanywhere_com_wsgi.py
-"""
-
 import os
 import sys
 
 # ============================================
-# PROJECT PATH
+# PROJECT PATH - o'zgartiring!
 # ============================================
-# O'zingizning username'ingizga qarab o'zgartiring
-project_home = '/home/multiagent/multiagent_tizimlar'
+# username o'rniga o'zingizning PythonAnywhere username'ingizni yozing
+username = 'multiagent'  # <-- BU YERNI O'ZGARTIRING
+project_home = f'/home/{username}/multiagent'
 
 if project_home not in sys.path:
     sys.path.insert(0, project_home)
@@ -21,19 +20,26 @@ if project_home not in sys.path:
 # ============================================
 # ENVIRONMENT VARIABLES
 # ============================================
-os.environ['DJANGO_SETTINGS_MODULE'] = 'config.settings.dev'  # yoki 'config.settings.prod'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'config.settings.pythonanywhere'
+
+# .env faylidan environment variables yuklash
+env_file = os.path.join(project_home, '.env')
+if os.path.exists(env_file):
+    with open(env_file) as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#') and '=' in line:
+                key, _, value = line.partition('=')
+                os.environ.setdefault(key.strip(), value.strip())
 
 # ============================================
 # VIRTUAL ENVIRONMENT
 # ============================================
-# Virtual environment'ni faollashtirish
-activate_this = os.path.join(project_home, 'venv/bin/activate_this.py')
+venv_path = f'/home/{username}/.virtualenvs/multiagent/lib/python3.10/site-packages'
+# yoki: venv_path = os.path.join(project_home, 'venv/lib/python3.10/site-packages')
 
-# Python 3.10+ uchun activate_this.py bo'lmasligi mumkin
-# Shuning uchun site-packages'ni to'g'ridan-to'g'ri qo'shamiz
-venv_site_packages = os.path.join(project_home, 'venv/lib/python3.10/site-packages')
-if venv_site_packages not in sys.path:
-    sys.path.insert(0, venv_site_packages)
+if os.path.exists(venv_path) and venv_path not in sys.path:
+    sys.path.insert(0, venv_path)
 
 # ============================================
 # DJANGO APPLICATION

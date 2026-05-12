@@ -1,0 +1,56 @@
+﻿{% extends "base.html" %}
+{% block title %}{{ disease.name }}{% endblock %}
+{% block extra_css %}
+<style>
+.card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+.back-btn { display: inline-block; padding: 8px 18px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; margin-bottom: 20px; }
+.tag { display: inline-block; background: #e8eaf6; color: #3949ab; padding: 3px 10px; border-radius: 12px; font-size: 12px; margin: 3px; }
+.severity { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 13px; font-weight: 600; }
+.severity-LOW { background: #d1e7dd; color: #0f5132; }
+.severity-MEDIUM { background: #fff3cd; color: #856404; }
+.severity-HIGH { background: #ffe5d0; color: #c95e00; }
+.severity-CRITICAL { background: #f8d7da; color: #842029; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <a href="{% url 'diagnostics:disease_list' %}" class="back-btn">← Kasalliklar ro'yxati</a>
+  <div class="card">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+      <div>
+        <h2 style="font-size:24px;">{{ disease.name }}</h2>
+        {% if disease.icd_code %}<span style="font-size:13px; color:#6c757d;">ICD-10: <strong>{{ disease.icd_code }}</strong></span>{% endif %}
+      </div>
+      <span class="severity severity-{{ disease.severity }}">{{ disease.get_severity_display }}</span>
+    </div>
+    <p style="color:#444; line-height:1.7;">{{ disease.description }}</p>
+  </div>
+  {% if disease.symptoms %}
+  <div class="card">
+    <h3>🩺 Simptomlar</h3>
+    {% for symptom, weight in disease.symptoms.items %}
+    <span class="tag">{{ symptom }} ({{ weight }})</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if disease.recommended_tests %}
+  <div class="card">
+    <h3>🧪 Tavsiya Etilgan Tahlillar</h3>
+    {% for test in disease.recommended_tests %}<p style="padding:6px 0; border-bottom:1px solid #f0f0f0;">• {{ test }}</p>{% endfor %}
+  </div>
+  {% endif %}
+  {% if disease.treatment_options %}
+  <div class="card">
+    <h3>💊 Davolash</h3>
+    <p style="white-space:pre-line; color:#444; line-height:1.7;">{{ disease.treatment_options }}</p>
+  </div>
+  {% endif %}
+  {% if disease.prevention %}
+  <div class="card">
+    <h3>🛡️ Oldini Olish</h3>
+    <p style="white-space:pre-line; color:#444; line-height:1.7;">{{ disease.prevention }}</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

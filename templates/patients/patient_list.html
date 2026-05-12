@@ -1,0 +1,60 @@
+﻿{% extends "base.html" %}
+{% block title %}Bemorlar{% endblock %}
+{% block extra_css %}
+<style>
+.page-header { background: white; padding: 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); display:flex; justify-content:space-between; align-items:center; }
+.search-bar { display: flex; gap: 10px; }
+.search-bar input { padding: 10px 16px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; width: 280px; }
+.search-bar button { padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer; }
+.table-card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
+table { width: 100%; border-collapse: collapse; }
+th { background: #f8f9fa; padding: 14px 16px; text-align: left; font-size: 12px; font-weight: 600; color: #6c757d; text-transform: uppercase; border-bottom: 2px solid #eee; }
+td { padding: 14px 16px; border-bottom: 1px solid #f0f0f0; }
+tr:hover td { background: #f8f9fa; }
+.btn { display: inline-block; padding: 6px 14px; border-radius: 8px; text-decoration: none; font-size: 13px; }
+.btn-primary { background: #667eea; color: white; }
+.gender-M { color: #0d6efd; }
+.gender-F { color: #e83e8c; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <div>
+      <h2>👤 Bemorlar</h2>
+      <p style="color:#6c757d; margin-top:4px;">{{ patients.count }} ta bemor</p>
+    </div>
+    <form method="get" class="search-bar">
+      <input type="text" name="q" placeholder="Qidirish..." value="{{ query }}">
+      <button type="submit">🔍</button>
+    </form>
+  </div>
+  <div class="table-card">
+    {% if patients %}
+    <table>
+      <thead><tr>
+        <th>#</th><th>Ism Familiya</th><th>Jins</th><th>Yoshi</th><th>Telefon</th><th>Sessiyalar</th><th>Amallar</th>
+      </tr></thead>
+      <tbody>
+      {% for patient in patients %}
+      <tr>
+        <td style="color:#6c757d;">{{ forloop.counter }}</td>
+        <td><strong>{{ patient.get_full_name }}</strong></td>
+        <td class="gender-{{ patient.gender }}">{{ patient.get_gender_display }}</td>
+        <td>{{ patient.get_age }} yosh</td>
+        <td>{{ patient.phone|default:"—" }}</td>
+        <td>{{ patient.diagnostic_sessions.count }}</td>
+        <td><a href="{% url 'patients:patient_detail' patient.pk %}" class="btn btn-primary">Ko'rish</a></td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <div style="text-align:center;padding:60px;color:#6c757d;">
+      <h3>{% if query %}Topilmadi{% else %}Bemorlar mavjud emas{% endif %}</h3>
+      <p>{% if query %}Boshqa kalit so'z bilan qidiring{% else %}Admin panelda bemor qo'shing{% endif %}</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

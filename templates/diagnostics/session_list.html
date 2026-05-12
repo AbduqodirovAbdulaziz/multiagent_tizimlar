@@ -1,0 +1,57 @@
+﻿{% extends "base.html" %}
+{% block title %}Diagnostika Sessiyalari{% endblock %}
+{% block extra_css %}
+<style>
+.page-header { background: white; padding: 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.table-card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
+table { width: 100%; border-collapse: collapse; }
+th { background: #f8f9fa; padding: 14px 16px; text-align: left; font-size: 13px; font-weight: 600; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #eee; }
+td { padding: 14px 16px; border-bottom: 1px solid #f0f0f0; color: #2c3e50; }
+tr:hover td { background: #f8f9fa; }
+.badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.badge-pending { background: #fff3cd; color: #856404; }
+.badge-in_progress { background: #cfe2ff; color: #084298; }
+.badge-completed { background: #d1e7dd; color: #0f5132; }
+.badge-failed { background: #f8d7da; color: #842029; }
+.btn { display: inline-block; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 500; }
+.btn-primary { background: #667eea; color: white; }
+.btn-sm { padding: 5px 12px; font-size: 12px; }
+.empty-state { text-align: center; padding: 60px 20px; color: #6c757d; }
+.empty-state h3 { font-size: 20px; margin-bottom: 8px; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h2>🔬 Diagnostika Sessiyalari</h2>
+    <p style="color:#6c757d; margin-top:4px;">Barcha diagnostika sessiyalari ro'yxati</p>
+  </div>
+  <div class="table-card">
+    {% if sessions %}
+    <table>
+      <thead><tr>
+        <th>Session ID</th><th>Bemor</th><th>Holat</th><th>Simptomlar</th><th>Boshlangan</th><th>Amallar</th>
+      </tr></thead>
+      <tbody>
+      {% for session in sessions %}
+      <tr>
+        <td style="font-family:monospace; font-size:13px;">{{ session.session_id|slice:":16" }}...</td>
+        <td><strong>{{ session.patient.get_full_name }}</strong></td>
+        <td><span class="badge badge-{{ session.status|lower }}">{{ session.get_status_display }}</span></td>
+        <td>{{ session.symptoms|length }} ta simptom</td>
+        <td>{{ session.started_at|date:"d.m.Y H:i" }}</td>
+        <td><a href="{% url 'diagnostics:session_detail' session.session_id %}" class="btn btn-primary btn-sm">Ko'rish</a></td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <div class="empty-state">
+      <h3>Sessiyalar mavjud emas</h3>
+      <p>Hali diagnostika sessiyalari yaratilmagan.</p>
+      <a href="{% url 'dashboard:index' %}" class="btn btn-primary" style="margin-top:16px;">Dashboard ga qaytish</a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
