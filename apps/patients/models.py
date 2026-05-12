@@ -53,6 +53,7 @@ class Patient(models.Model):
     phone = PhoneNumberField('Telefon', blank=True)
     email = models.EmailField('Email', blank=True)
     address = models.TextField('Manzil', blank=True)
+    emergency_contact = models.CharField('Favqulodda aloqa', max_length=100, blank=True)
     
     # Tibbiy ma'lumotlar
     blood_type = models.CharField(
@@ -78,11 +79,11 @@ class Patient(models.Model):
         validators=[MinValueValidator(2), MaxValueValidator(500)]
     )
     
-    # Allergiyalar
-    allergies = models.TextField('Allergiyalar', blank=True)
+    # Allergiyalar (JSON field)
+    allergies = models.JSONField('Allergiyalar', default=list, blank=True)
     
-    # Surunkali kasalliklar
-    chronic_diseases = models.TextField('Surunkali kasalliklar', blank=True)
+    # Surunkali kasalliklar (JSON field)
+    chronic_diseases = models.JSONField('Surunkali kasalliklar', default=list, blank=True)
     
     # Qo'shimcha ma'lumotlar
     notes = models.TextField('Qo\'shimcha ma\'lumotlar', blank=True)

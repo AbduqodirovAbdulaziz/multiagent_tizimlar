@@ -13,6 +13,7 @@ class DiseasePatternAdmin(admin.ModelAdmin):
         'name',
         'icd_code',
         'severity',
+        'symptom_count',
         'is_active',
         'created_at',
     ]
@@ -29,14 +30,15 @@ class DiseasePatternAdmin(admin.ModelAdmin):
         'description',
     ]
     
-    readonly_fields = ['created_at', 'updated_at']
+    readonly_fields = ['created_at', 'updated_at', 'symptom_count', 'test_count']
     
     fieldsets = (
         ('Asosiy Malumotlar', {
             'fields': ('name', 'icd_code', 'description', 'severity')
         }),
         ('Simptomlar va Tahlillar', {
-            'fields': ('symptoms', 'recommended_tests')
+            'fields': ('symptoms', 'symptom_count', 'recommended_tests', 'test_count'),
+            'description': 'Simptomlar va tahlillarni vergul bilan ajratib kiriting'
         }),
         ('Davolash', {
             'fields': ('treatment_options', 'prevention')
@@ -51,14 +53,32 @@ class DiseasePatternAdmin(admin.ModelAdmin):
     )
     
     date_hierarchy = 'created_at'
+    
+    def symptom_count(self, obj):
+        """Simptomlar soni."""
+        return len(obj.symptoms) if obj.symptoms else 0
+    symptom_count.short_description = 'Simptomlar soni'
+    
+    def test_count(self, obj):
+        """Tahlillar soni."""
+        return len(obj.recommended_tests) if obj.recommended_tests else 0
+    test_count.short_description = 'Tahlillar soni'
 
 
 class DiagnosticResultInline(admin.TabularInline):
     """Diagnostika natijalari inline."""
     model = DiagnosticResult
     extra = 0
-    readonly_fields = ['disease', 'confidence_score', 'created_at']
+    readonly_fields = ['disease', 'confidence_score', 'get_confidence_percentage', 'created_at']
+    fields = ['disease', 'confidence_score', 'get_confidence_percentage', 'created_at']
     can_delete = False
+    
+    def get_confidence_percentage(self, obj):
+        """Ishonch foizda."""
+        if obj.pk:
+            return f"{obj.get_confidence_percentage():.1f}%"
+        return '-'
+    get_confidence_percentage.short_description = 'Ishonch (%)'
     
     def has_add_permission(self, request, obj=None):
         return False
@@ -72,8 +92,9 @@ class DiagnosticSessionAdmin(admin.ModelAdmin):
         'session_id',
         'patient',
         'status',
+        'symptom_count',
+        'result_count',
         'started_at',
-        'completed_at',
         'get_duration_display',
     ]
     
@@ -94,6 +115,8 @@ class DiagnosticSessionAdmin(admin.ModelAdmin):
         'started_at',
         'completed_at',
         'get_duration_display',
+        'symptom_count',
+        'result_count',
     ]
     
     fieldsets = (
@@ -101,7 +124,11 @@ class DiagnosticSessionAdmin(admin.ModelAdmin):
             'fields': ('session_id', 'patient', 'status')
         }),
         ('Simptomlar va Tahlillar', {
-            'fields': ('symptoms', 'test_results')
+            'fields': ('symptoms', 'symptom_count', 'test_results'),
+            'description': 'Simptomlarni list formatida kiriting: ["simptom1", "simptom2"]'
+        }),
+        ('Statistika', {
+            'fields': ('result_count', 'get_duration_display')
         }),
         ('Agent Holatlari', {
             'fields': ('agent_states',),
@@ -112,13 +139,15 @@ class DiagnosticSessionAdmin(admin.ModelAdmin):
             'classes': ('collapse',)
         }),
         ('Vaqt', {
-            'fields': ('started_at', 'completed_at', 'get_duration_display')
+            'fields': ('started_at', 'completed_at')
         }),
     )
     
     inlines = [DiagnosticResultInline]
     
     date_hierarchy = 'started_at'
+    
+    autocomplete_fields = ['patient']
     
     def get_duration_display(self, obj):
         """Davomiylikni ko'rsatish."""
@@ -130,8 +159,19 @@ class DiagnosticSessionAdmin(admin.ModelAdmin):
         return '-'
     get_duration_display.short_description = 'Davomiyligi'
     
+    def symptom_count(self, obj):
+        """Simptomlar soni."""
+        return len(obj.symptoms) if obj.symptoms else 0
+    symptom_count.short_description = 'Simptomlar'
+    
+    def result_count(self, obj):
+        """Natijalar soni."""
+        return obj.results.count()
+    result_count.short_description = 'Natijalar'
+    
     def has_add_permission(self, request):
         """Qo'lda sessiya qo'shishni cheklash."""
+        # API orqali yaratilishi kerak
         return False
 
 

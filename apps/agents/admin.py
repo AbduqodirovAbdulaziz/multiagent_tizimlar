@@ -12,7 +12,7 @@ class AgentStateAdmin(admin.ModelAdmin):
     list_display = [
         'agent_name',
         'state',
-        'current_task',
+        'current_task_preview',
         'last_activity',
     ]
     
@@ -38,12 +38,20 @@ class AgentStateAdmin(admin.ModelAdmin):
         }),
         ('Metadata', {
             'fields': ('metadata',),
-            'classes': ('collapse',)
+            'classes': ('collapse',),
+            'description': 'Agent qo\'shimcha ma\'lumotlari JSON formatida'
         }),
         ('Vaqt', {
             'fields': ('last_activity', 'created_at')
         }),
     )
+    
+    def current_task_preview(self, obj):
+        """Vazifa preview."""
+        if obj.current_task:
+            return obj.current_task[:50] + '...' if len(obj.current_task) > 50 else obj.current_task
+        return '-'
+    current_task_preview.short_description = 'Hozirgi Vazifa'
     
     def has_add_permission(self, request):
         """Qo'lda agent holati qo'shishni cheklash."""

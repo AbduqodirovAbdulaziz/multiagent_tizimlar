@@ -9,14 +9,16 @@ class SymptomInline(admin.TabularInline):
     """Simptomlar inline."""
     model = Symptom
     extra = 1
-    fields = ['name', 'severity', 'started_at', 'duration_days']
+    fields = ['name', 'severity', 'description', 'started_at', 'duration_days']
+    readonly_fields = []
 
 
 class MedicalHistoryInline(admin.TabularInline):
     """Tibbiy tarix inline."""
     model = MedicalHistory
     extra = 0
-    fields = ['disease_name', 'diagnosed_at', 'treatment']
+    fields = ['disease_name', 'diagnosed_at', 'treatment', 'outcome', 'doctor_name']
+    readonly_fields = []
 
 
 @admin.register(Patient)
@@ -58,7 +60,6 @@ class PatientAdmin(admin.ModelAdmin):
     fieldsets = (
         ('Shaxsiy Malumotlar', {
             'fields': (
-                'user',
                 'first_name',
                 'last_name',
                 'middle_name',
@@ -67,7 +68,7 @@ class PatientAdmin(admin.ModelAdmin):
             )
         }),
         ('Aloqa', {
-            'fields': ('phone', 'email', 'address')
+            'fields': ('phone', 'email', 'address', 'emergency_contact')
         }),
         ('Tibbiy Malumotlar', {
             'fields': (
@@ -79,8 +80,13 @@ class PatientAdmin(admin.ModelAdmin):
                 'chronic_diseases',
             )
         }),
+        ('Tizim', {
+            'fields': ('user', 'is_active'),
+            'classes': ('collapse',)
+        }),
         ('Qoshimcha', {
-            'fields': ('notes', 'is_active')
+            'fields': ('notes',),
+            'classes': ('collapse',)
         }),
         ('Vaqt', {
             'fields': ('created_at', 'updated_at'),
@@ -91,6 +97,9 @@ class PatientAdmin(admin.ModelAdmin):
     inlines = [SymptomInline, MedicalHistoryInline]
     
     date_hierarchy = 'created_at'
+    
+    # Autocomplete uchun
+    search_fields = ['first_name', 'last_name', 'middle_name', 'phone']
     
     def get_age(self, obj):
         """Yoshni ko'rsatish."""
@@ -134,7 +143,21 @@ class SymptomAdmin(admin.ModelAdmin):
     
     readonly_fields = ['created_at', 'updated_at']
     
+    fieldsets = (
+        ('Bemor', {
+            'fields': ('patient',)
+        }),
+        ('Simptom Malumotlari', {
+            'fields': ('name', 'description', 'severity')
+        }),
+        ('Vaqt', {
+            'fields': ('started_at', 'duration_days', 'created_at', 'updated_at')
+        }),
+    )
+    
     date_hierarchy = 'started_at'
+    
+    autocomplete_fields = ['patient']
 
 
 @admin.register(MedicalHistory)
@@ -145,11 +168,13 @@ class MedicalHistoryAdmin(admin.ModelAdmin):
         'patient',
         'disease_name',
         'diagnosed_at',
+        'outcome',
         'doctor_name',
         'created_at',
     ]
     
     list_filter = [
+        'outcome',
         'diagnosed_at',
         'created_at',
     ]
@@ -163,4 +188,26 @@ class MedicalHistoryAdmin(admin.ModelAdmin):
     
     readonly_fields = ['created_at', 'updated_at']
     
+    fieldsets = (
+        ('Bemor', {
+            'fields': ('patient',)
+        }),
+        ('Kasallik Malumotlari', {
+            'fields': ('disease_name', 'diagnosed_at', 'outcome')
+        }),
+        ('Davolash', {
+            'fields': ('treatment', 'doctor_name')
+        }),
+        ('Qoshimcha', {
+            'fields': ('notes',),
+            'classes': ('collapse',)
+        }),
+        ('Vaqt', {
+            'fields': ('created_at', 'updated_at'),
+            'classes': ('collapse',)
+        }),
+    )
+    
     date_hierarchy = 'diagnosed_at'
+    
+    autocomplete_fields = ['patient']
