@@ -37,7 +37,7 @@ staticfiles/
 static_root/
 
 # Environment variables
-.env
+# .env temporarily included for deployment
 .env.local
 .env.*.local
 
