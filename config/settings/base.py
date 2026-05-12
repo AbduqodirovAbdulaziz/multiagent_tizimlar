@@ -51,6 +51,7 @@ THIRD_PARTY_APPS = [
     'allauth.socialaccount',
     'drf_spectacular',
     'django_celery_beat',
+    'debug_toolbar',
 ]
 
 LOCAL_APPS = [
@@ -75,6 +76,7 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',  # Allauth required
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',  # Debug toolbar
 ]
 
 ROOT_URLCONF = 'config.urls'
