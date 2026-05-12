@@ -1,0 +1,1783 @@
+INFO 2026-05-11 23:51:21,389 autoreload 11536 11248 Watching for file changes with StatReloader
+INFO 2026-05-11 23:52:40,836 autoreload 10752 2656 Watching for file changes with StatReloader
+INFO 2026-05-11 23:53:02,667 basehttp 10752 7036 "GET / HTTP/1.1" 200 78
+WARNING 2026-05-11 23:53:02,904 log 10752 7036 Not Found: /favicon.ico
+WARNING 2026-05-11 23:53:02,906 basehttp 10752 7036 "GET /favicon.ico HTTP/1.1" 404 18049
+INFO 2026-05-11 23:53:16,864 basehttp 10752 7036 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-11 23:53:17,859 basehttp 10752 7036 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 18329
+INFO 2026-05-11 23:53:17,913 basehttp 10752 6600 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2026-05-11 23:53:17,922 basehttp 10752 7036 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2026-05-11 23:53:17,922 basehttp 10752 12548 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-05-11 23:53:17,925 basehttp 10752 7776 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-05-11 23:53:17,928 basehttp 10752 16396 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-05-11 23:53:17,928 basehttp 10752 16420 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2026-05-11 23:53:17,930 basehttp 10752 6600 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-11 23:53:17,935 basehttp 10752 7036 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-11 23:53:17,945 basehttp 10752 7036 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-05-11 23:53:17,955 basehttp 10752 7036 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-11 23:53:18,043 basehttp 10752 7036 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+INFO 2026-05-11 23:53:30,792 basehttp 10752 7036 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-05-11 23:53:30,940 basehttp 10752 7036 "GET /admin/ HTTP/1.1" 200 35225
+INFO 2026-05-11 23:53:30,987 basehttp 10752 7036 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-05-11 23:53:31,000 basehttp 10752 7036 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-05-11 23:53:31,001 basehttp 10752 6600 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-05-11 23:53:31,001 basehttp 10752 16396 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2026-05-11 23:54:59,804 autoreload 10752 2656 D:\MULTIAGENT\config\settings\base.py changed, reloading.
+INFO 2026-05-11 23:55:02,512 autoreload 10612 9772 Watching for file changes with StatReloader
+INFO 2026-05-11 23:55:29,680 autoreload 10612 9772 D:\MULTIAGENT\config\settings\base.py changed, reloading.
+INFO 2026-05-11 23:55:31,224 autoreload 4436 15528 Watching for file changes with StatReloader
+INFO 2026-05-11 23:57:23,788 basehttp 4436 8944 "GET /admin/ HTTP/1.1" 200 66273
+INFO 2026-05-11 23:57:23,880 basehttp 4436 13660 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-11 23:57:23,906 basehttp 4436 12900 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 14372
+INFO 2026-05-11 23:57:23,910 basehttp 4436 5140 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-11 23:57:23,910 basehttp 4436 8944 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103010
+INFO 2026-05-11 23:57:23,920 basehttp 4436 8944 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-11 23:57:23,923 basehttp 4436 9828 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 298755
+INFO 2026-05-11 23:57:23,958 basehttp 4436 12900 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 18270
+INFO 2026-05-11 23:57:23,962 basehttp 4436 5140 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 4542
+INFO 2026-05-11 23:57:23,978 basehttp 4436 13660 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+INFO 2026-05-11 23:57:24,052 basehttp 4436 10840 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-05-11 23:57:24,991 basehttp 4436 5140 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-11 23:57:25,011 basehttp 4436 5140 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-11 23:57:25,018 basehttp 4436 13660 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2026-05-11 23:57:25,021 basehttp 4436 10840 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+ERROR 2026-05-11 23:57:43,895 log 4436 10840 Internal Server Error: /admin/agents/agentstate/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-11 23:57:44,289 basehttp 4436 10840 "GET /admin/agents/agentstate/ HTTP/1.1" 500 577372
+INFO 2026-05-11 23:58:26,302 autoreload 4436 15528 D:\MULTIAGENT\apps\api\urls.py changed, reloading.
+INFO 2026-05-11 23:58:28,046 autoreload 11696 11624 Watching for file changes with StatReloader
+INFO 2026-05-11 23:58:58,690 autoreload 11696 11624 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-11 23:59:00,638 autoreload 17064 16520 Watching for file changes with StatReloader
+INFO 2026-05-11 23:59:05,144 autoreload 17064 16520 D:\MULTIAGENT\apps\dashboard\urls.py changed, reloading.
+INFO 2026-05-11 23:59:06,848 autoreload 16580 2820 Watching for file changes with StatReloader
+INFO 2026-05-12 00:02:25,074 autoreload 10260 14332 Watching for file changes with StatReloader
+ERROR 2026-05-12 00:02:40,935 log 10260 8360 Internal Server Error: /admin/agents/agentstate/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-12 00:02:41,137 basehttp 10260 8360 "GET /admin/agents/agentstate/ HTTP/1.1" 500 577508
+INFO 2026-05-12 00:02:41,200 basehttp 10260 11480 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:02:41,201 basehttp 10260 8360 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:02:41,459 basehttp 10260 8360 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:02:41,597 basehttp 10260 8360 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+ERROR 2026-05-12 00:02:51,910 log 10260 8360 Internal Server Error: /admin/agents/agentstate/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-12 00:02:52,411 basehttp 10260 8360 "GET /admin/agents/agentstate/ HTTP/1.1" 500 577509
+ERROR 2026-05-12 00:03:22,630 log 10260 8360 Internal Server Error: /admin/agents/agentstate/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-12 00:03:23,213 basehttp 10260 8360 "GET /admin/agents/agentstate/ HTTP/1.1" 500 577509
+ERROR 2026-05-12 00:05:58,549 log 10260 8360 Internal Server Error: /admin/agents/agentstate/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-12 00:05:59,015 basehttp 10260 8360 "GET /admin/agents/agentstate/ HTTP/1.1" 500 577508
+INFO 2026-05-12 00:05:59,069 basehttp 10260 8360 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:05:59,074 basehttp 10260 8360 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:05:59,128 basehttp 10260 8360 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:05:59,157 basehttp 10260 8360 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:00,382 basehttp 10260 8360 "GET /admin/ HTTP/1.1" 200 66272
+INFO 2026-05-12 00:06:05,357 basehttp 10260 8360 "GET /admin/ HTTP/1.1" 200 66272
+INFO 2026-05-12 00:06:05,410 basehttp 10260 8360 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,414 basehttp 10260 11480 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,420 basehttp 10260 8120 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,431 basehttp 10260 7760 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,432 basehttp 10260 16808 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,433 basehttp 10260 10576 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,433 basehttp 10260 11480 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:05,435 basehttp 10260 8120 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:06:11,074 basehttp 10260 8120 "GET /admin/ HTTP/1.1" 200 66272
+ERROR 2026-05-12 00:06:22,479 log 10260 8120 Internal Server Error: /admin/sites/site/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-12 00:06:22,867 basehttp 10260 8120 "GET /admin/sites/site/ HTTP/1.1" 500 577281
+INFO 2026-05-12 00:06:37,308 basehttp 10260 8120 "GET /admin/ HTTP/1.1" 200 66272
+ERROR 2026-05-12 00:06:38,953 log 10260 8120 Internal Server Error: /admin/core/agentlog/
+Traceback (most recent call last):
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\library.py", line 273, in render
+    new_context = context.new(_dict)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 275, in new
+    new_context = super().new(values)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 112, in new
+    new_context = copy(self)
+  File "C:\Python314\Lib\copy.py", line 82, in copy
+    return copier(x)
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 160, in __copy__
+    duplicate = super().__copy__()
+  File "D:\MULTIAGENT\venv\Lib\site-packages\django\template\context.py", line 41, in __copy__
+    duplicate.dicts = self.dicts[:]
+    ^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes
+ERROR 2026-05-12 00:06:39,319 basehttp 10260 8120 "GET /admin/core/agentlog/ HTTP/1.1" 500 502909
+INFO 2026-05-12 00:07:06,128 autoreload 10260 14332 D:\MULTIAGENT\venv\Lib\site-packages\django\conf\global_settings.py changed, reloading.
+INFO 2026-05-12 00:19:16,125 autoreload 17068 2704 Watching for file changes with StatReloader
+INFO 2026-05-12 00:19:24,201 basehttp 17068 1188 "GET /admin/ HTTP/1.1" 200 66273
+INFO 2026-05-12 00:19:24,326 basehttp 17068 580 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-12 00:19:24,338 basehttp 17068 13988 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 14372
+INFO 2026-05-12 00:19:24,339 basehttp 17068 1188 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103010
+INFO 2026-05-12 00:19:24,345 basehttp 17068 17024 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 298755
+INFO 2026-05-12 00:19:24,372 basehttp 17068 13988 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 00:19:24,383 basehttp 17068 6364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 00:19:24,412 basehttp 17068 1188 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 18270
+INFO 2026-05-12 00:19:24,416 basehttp 17068 17024 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 4542
+INFO 2026-05-12 00:19:24,457 basehttp 17068 580 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+INFO 2026-05-12 00:19:24,486 basehttp 17068 17024 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2026-05-12 00:19:24,493 basehttp 17068 14104 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2026-05-12 00:19:24,498 basehttp 17068 580 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2026-05-12 00:19:24,849 basehttp 17068 14104 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 00:19:24,890 basehttp 17068 580 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+INFO 2026-05-12 00:19:26,671 basehttp 17068 580 "GET /admin/agents/agentstate/ HTTP/1.1" 200 41767
+INFO 2026-05-12 00:19:26,721 basehttp 17068 580 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2026-05-12 00:19:26,755 basehttp 17068 17024 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-05-12 00:19:26,787 basehttp 17068 580 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-05-12 00:19:26,795 basehttp 17068 1188 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2026-05-12 00:19:26,803 basehttp 17068 13988 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2026-05-12 00:19:26,803 basehttp 17068 6364 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2026-05-12 00:19:26,820 basehttp 17068 17024 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-05-12 00:19:26,885 basehttp 17068 14104 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:19:26,890 basehttp 17068 13988 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2205
+INFO 2026-05-12 00:19:26,994 basehttp 17068 1188 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2026-05-12 00:19:27,001 basehttp 17068 580 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2026-05-12 00:19:29,244 basehttp 17068 580 "GET /admin/auth/group/ HTTP/1.1" 200 39795
+INFO 2026-05-12 00:19:29,361 basehttp 17068 580 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:19:30,618 basehttp 17068 580 "GET /admin/auth/user/ HTTP/1.1" 200 46085
+INFO 2026-05-12 00:19:30,694 basehttp 17068 1188 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2026-05-12 00:19:30,759 basehttp 17068 580 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:19:34,099 basehttp 17068 580 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 65290
+INFO 2026-05-12 00:19:34,193 basehttp 17068 6364 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-05-12 00:19:34,248 basehttp 17068 17024 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2026-05-12 00:19:34,250 basehttp 17068 13988 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2026-05-12 00:19:34,261 basehttp 17068 1188 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2026-05-12 00:19:34,266 basehttp 17068 14104 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2026-05-12 00:19:34,270 basehttp 17068 6364 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-05-12 00:19:34,300 basehttp 17068 580 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:19:34,313 basehttp 17068 13988 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-05-12 00:19:34,396 basehttp 17068 6364 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6045
+INFO 2026-05-12 00:19:46,686 basehttp 17068 6364 "GET /static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 117852
+INFO 2026-05-12 00:19:49,875 basehttp 17068 6364 "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2026-05-12 00:19:50,147 basehttp 17068 6364 "GET /admin/auth/user/ HTTP/1.1" 200 46625
+INFO 2026-05-12 00:19:50,186 basehttp 17068 6364 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,195 basehttp 17068 580 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,195 basehttp 17068 13988 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,203 basehttp 17068 17024 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,203 basehttp 17068 14104 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,211 basehttp 17068 6364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,219 basehttp 17068 17024 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,223 basehttp 17068 13988 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,238 basehttp 17068 13988 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,241 basehttp 17068 17024 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,270 basehttp 17068 17024 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,272 basehttp 17068 13988 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,292 basehttp 17068 13988 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,403 basehttp 17068 1188 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:19:50,436 basehttp 17068 1188 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:50,477 basehttp 17068 1188 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,658 basehttp 17068 1188 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 40792
+INFO 2026-05-12 00:19:51,730 basehttp 17068 14104 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,730 basehttp 17068 17024 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,736 basehttp 17068 1188 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,737 basehttp 17068 13988 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,741 basehttp 17068 6364 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,741 basehttp 17068 580 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:51,754 basehttp 17068 14104 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:19:53,358 basehttp 17068 14104 "GET /admin/core/aclmessage/ HTTP/1.1" 200 43209
+INFO 2026-05-12 00:19:53,513 basehttp 17068 14104 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:31,640 basehttp 17068 580 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 43251
+INFO 2026-05-12 00:20:31,713 basehttp 17068 6364 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,718 basehttp 17068 1188 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,720 basehttp 17068 13988 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,721 basehttp 17068 14104 - Broken pipe from ('127.0.0.1', 57859)
+INFO 2026-05-12 00:20:31,721 basehttp 17068 580 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,726 basehttp 17068 10876 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,852 basehttp 17068 1188 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,852 basehttp 17068 6364 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,874 basehttp 17068 13988 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,892 basehttp 17068 580 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,892 basehttp 17068 10876 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,905 basehttp 17068 1188 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,925 basehttp 17068 6364 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,945 basehttp 17068 580 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,945 basehttp 17068 13988 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,949 basehttp 17068 10876 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,976 basehttp 17068 13988 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,976 basehttp 17068 10876 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,992 basehttp 17068 13988 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:31,992 basehttp 17068 10876 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:32,019 basehttp 17068 13988 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:32,089 basehttp 17068 17024 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:32,173 basehttp 17068 17024 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:32,175 basehttp 17068 13988 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:32,193 basehttp 17068 13988 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:32,216 basehttp 17068 13988 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:33,330 basehttp 17068 13988 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 49662
+INFO 2026-05-12 00:20:33,389 basehttp 17068 17024 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:33,491 basehttp 17068 13988 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:38,889 basehttp 17068 13988 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 43250
+INFO 2026-05-12 00:20:39,039 basehttp 17068 13988 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:45,569 basehttp 17068 13988 "GET /admin/diagnostics/diagnosticresult/ HTTP/1.1" 200 42044
+INFO 2026-05-12 00:20:45,691 basehttp 17068 13988 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:47,166 basehttp 17068 13988 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 49662
+INFO 2026-05-12 00:20:47,297 basehttp 17068 13988 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:53,100 basehttp 17068 13988 "GET /admin/account/emailaddress/ HTTP/1.1" 200 41045
+INFO 2026-05-12 00:20:53,153 basehttp 17068 10876 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,158 basehttp 17068 13988 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,159 basehttp 17068 17024 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,160 basehttp 17068 1188 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,160 basehttp 17068 580 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,177 basehttp 17068 10876 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,189 basehttp 17068 1188 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,189 basehttp 17068 580 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,218 basehttp 17068 580 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,222 basehttp 17068 1188 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,238 basehttp 17068 1188 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,238 basehttp 17068 580 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,331 basehttp 17068 6364 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:53,363 basehttp 17068 6364 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:53,389 basehttp 17068 6364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:55,983 basehttp 17068 6364 "GET /admin/account/emailaddress/add/ HTTP/1.1" 200 43004
+INFO 2026-05-12 00:20:56,046 basehttp 17068 580 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:56,046 basehttp 17068 1188 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:56,083 basehttp 17068 580 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:20:56,177 basehttp 17068 6364 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:20:59,325 basehttp 17068 6364 "GET /admin/auth/user/?_to_field=id&_popup=1 HTTP/1.1" 200 25726
+INFO 2026-05-12 00:21:13,337 basehttp 17068 6364 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 40226
+INFO 2026-05-12 00:21:13,452 basehttp 17068 580 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,452 basehttp 17068 10876 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,452 basehttp 17068 1188 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,459 basehttp 17068 13988 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,459 basehttp 17068 17024 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,469 basehttp 17068 580 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,473 basehttp 17068 10876 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,475 basehttp 17068 1188 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:13,546 basehttp 17068 6364 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:21:15,973 basehttp 17068 6364 "GET /admin/socialaccount/socialaccount/add/ HTTP/1.1" 200 43367
+INFO 2026-05-12 00:21:16,054 basehttp 17068 6364 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,054 basehttp 17068 1188 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,061 basehttp 17068 10876 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,065 basehttp 17068 17024 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,073 basehttp 17068 580 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,080 basehttp 17068 6364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,089 basehttp 17068 17024 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,104 basehttp 17068 6364 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,126 basehttp 17068 17024 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,131 basehttp 17068 6364 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,146 basehttp 17068 6364 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,217 basehttp 17068 13988 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:21:16,284 basehttp 17068 13988 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:16,300 basehttp 17068 6364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:22,849 basehttp 17068 6364 "GET /admin/patients/medicalhistory/ HTTP/1.1" 200 42073
+INFO 2026-05-12 00:21:22,902 basehttp 17068 13988 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2026-05-12 00:21:22,978 basehttp 17068 6364 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 00:25:05,316 basehttp 17068 6364 "GET /__debug__/render_panel/?request_id=1de1c6597a63407a8edc93d0716dac8b&panel_id=CommunityPanel HTTP/1.1" 200 1563
+INFO 2026-05-12 00:25:44,765 autoreload 17068 2704 D:\MULTIAGENT\config\settings\dev.py changed, reloading.
+INFO 2026-05-12 00:25:46,661 autoreload 5096 17020 Watching for file changes with StatReloader
+INFO 2026-05-12 00:25:51,499 autoreload 5096 17020 D:\MULTIAGENT\apps\patients\models.py changed, reloading.
+INFO 2026-05-12 00:25:53,288 autoreload 10124 10608 Watching for file changes with StatReloader
+INFO 2026-05-12 00:25:58,107 autoreload 10124 10608 D:\MULTIAGENT\apps\patients\models.py changed, reloading.
+INFO 2026-05-12 00:25:59,787 autoreload 16824 16548 Watching for file changes with StatReloader
+INFO 2026-05-12 00:26:20,318 autoreload 16824 16548 D:\MULTIAGENT\apps\patients\models.py changed, reloading.
+INFO 2026-05-12 00:26:21,945 autoreload 13572 10564 Watching for file changes with StatReloader
+INFO 2026-05-12 00:26:31,339 autoreload 13572 10564 D:\MULTIAGENT\apps\diagnostics\services.py changed, reloading.
+INFO 2026-05-12 00:26:32,976 autoreload 4152 16612 Watching for file changes with StatReloader
+INFO 2026-05-12 00:26:52,433 autoreload 4152 16612 D:\MULTIAGENT\apps\core\admin.py changed, reloading.
+INFO 2026-05-12 00:26:54,119 autoreload 8008 4280 Watching for file changes with StatReloader
+INFO 2026-05-12 00:27:02,231 autoreload 8008 4280 D:\MULTIAGENT\apps\patients\admin.py changed, reloading.
+INFO 2026-05-12 00:27:03,977 autoreload 11292 17104 Watching for file changes with StatReloader
+INFO 2026-05-12 00:27:11,071 autoreload 11292 17104 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 00:27:12,771 autoreload 15344 5204 Watching for file changes with StatReloader
+INFO 2026-05-12 00:27:19,787 autoreload 15344 5204 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 00:27:21,633 autoreload 10964 16448 Watching for file changes with StatReloader
+INFO 2026-05-12 00:28:25,658 autoreload 10964 16448 D:\MULTIAGENT\apps\agents\admin.py changed, reloading.
+INFO 2026-05-12 00:28:27,451 autoreload 9752 12068 Watching for file changes with StatReloader
+INFO 2026-05-12 00:28:31,308 autoreload 9752 12068 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 00:28:34,689 autoreload 17316 7028 Watching for file changes with StatReloader
+INFO 2026-05-12 08:16:09,205 base 20332 20328 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:16:09,209 base 20332 20328 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 08:16:09,215 base 20332 20328 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 08:16:09,224 base 20332 20328 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 08:16:09,232 base 20332 20328 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:16:09,237 base 20332 20328 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 08:16:09,242 base 20332 20328 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 08:16:09,247 base 20332 20328 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 08:16:09,257 base 20332 20328 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:16:09,262 base 20332 20328 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:16:09,272 base 20332 20328 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 08:16:09,286 base 20332 20328 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:16:09,291 base 20332 20328 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:16:09,295 base 20332 20328 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 08:16:09,302 base 20332 20328 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 08:16:09,311 base 20332 20328 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:16:09,317 base 20332 20328 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:16:09,326 base 20332 20328 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 08:16:09,336 base 20332 20328 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:16:09,341 base 20332 20328 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:16:09,345 base 20332 20328 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 08:16:09,352 base 20332 20328 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 08:16:09,361 base 20332 20328 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:16:09,367 base 20332 20328 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:16:09,375 base 20332 20328 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 08:16:09,384 base 20332 20328 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:16:09,389 base 20332 20328 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 08:16:09,392 base 20332 20328 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 08:16:09,399 base 20332 20328 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 08:16:09,406 base 20332 20328 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:16:09,411 base 20332 20328 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:16:09,454 base 20332 20328 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 08:16:09,462 base 20332 20328 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:16:09,467 base 20332 20328 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:16:41,537 basehttp 17316 19932 "GET /admin/patients/medicalhistory/ HTTP/1.1" 200 42464
+INFO 2026-05-12 08:16:41,611 basehttp 17316 19932 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,620 basehttp 17316 19932 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,620 basehttp 17316 19832 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,630 basehttp 17316 16284 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,635 basehttp 17316 19932 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,635 basehttp 17316 17112 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,635 basehttp 17316 2368 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,635 basehttp 17316 19832 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,648 basehttp 17316 16284 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,650 basehttp 17316 19932 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,650 basehttp 17316 17112 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,652 basehttp 17316 2368 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,659 basehttp 17316 19832 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,683 basehttp 17316 17112 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,683 basehttp 17316 2368 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,693 basehttp 17316 2368 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,696 basehttp 17316 17112 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,725 basehttp 17316 17112 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,727 basehttp 17316 2368 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,727 basehttp 17316 2368 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,749 basehttp 17316 17048 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:16:41,844 basehttp 17316 2368 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,844 basehttp 17316 17048 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,850 basehttp 17316 17048 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:41,862 basehttp 17316 17048 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:16:50,120 basehttp 17316 17048 "GET /admin/patients/medicalhistory/ HTTP/1.1" 200 42462
+INFO 2026-05-12 08:16:50,180 basehttp 17316 17112 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 14372
+INFO 2026-05-12 08:16:50,185 basehttp 17316 19832 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2026-05-12 08:16:50,197 basehttp 17316 17112 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-05-12 08:16:50,206 basehttp 17316 19832 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2026-05-12 08:16:50,235 basehttp 17316 17048 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103010
+INFO 2026-05-12 08:16:50,249 basehttp 17316 17112 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2026-05-12 08:16:50,253 basehttp 17316 19832 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2026-05-12 08:16:50,256 basehttp 17316 17048 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-05-12 08:16:50,263 basehttp 17316 17112 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-05-12 08:16:50,268 basehttp 17316 17048 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 08:16:50,274 basehttp 17316 17112 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-12 08:16:50,279 basehttp 17316 2368 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 298755
+INFO 2026-05-12 08:16:50,288 basehttp 17316 16284 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2026-05-12 08:16:50,293 basehttp 17316 2368 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 18270
+INFO 2026-05-12 08:16:50,298 basehttp 17316 17112 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+INFO 2026-05-12 08:16:50,302 basehttp 17316 19832 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2026-05-12 08:16:50,311 basehttp 17316 17112 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 4542
+INFO 2026-05-12 08:16:50,315 basehttp 17316 17112 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2205
+INFO 2026-05-12 08:16:50,325 basehttp 17316 19832 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2026-05-12 08:16:50,331 basehttp 17316 17112 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 08:16:50,374 basehttp 17316 19932 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:16:50,412 basehttp 17316 17112 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2026-05-12 08:16:50,415 basehttp 17316 19932 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2026-05-12 08:16:50,420 basehttp 17316 17112 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 08:16:50,430 basehttp 17316 17112 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+INFO 2026-05-12 08:16:50,467 basehttp 17316 17112 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-12 08:22:01,926 base 10112 7152 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:22:01,932 base 10112 7152 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 08:22:01,938 base 10112 7152 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 08:22:01,953 base 10112 7152 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 08:22:01,963 base 10112 7152 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:22:01,969 base 10112 7152 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 08:22:01,976 base 10112 7152 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 08:22:01,981 base 10112 7152 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 08:22:01,995 base 10112 7152 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:22:02,000 base 10112 7152 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:22:02,013 base 10112 7152 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 08:22:02,026 base 10112 7152 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:22:02,032 base 10112 7152 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:22:02,038 base 10112 7152 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 08:22:02,044 base 10112 7152 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 08:22:02,055 base 10112 7152 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:22:02,062 base 10112 7152 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:22:02,074 base 10112 7152 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 08:22:02,083 base 10112 7152 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:22:02,089 base 10112 7152 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:22:02,095 base 10112 7152 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 08:22:02,102 base 10112 7152 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 08:22:02,113 base 10112 7152 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:22:02,118 base 10112 7152 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:22:02,129 base 10112 7152 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 08:22:02,140 base 10112 7152 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:22:02,145 base 10112 7152 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 08:22:02,150 base 10112 7152 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 08:22:02,158 base 10112 7152 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 08:22:02,167 base 10112 7152 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:22:02,174 base 10112 7152 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:22:02,234 base 10112 7152 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 08:22:02,245 base 10112 7152 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:22:02,250 base 10112 7152 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:27:08,122 autoreload 17316 7028 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 08:27:10,399 autoreload 6212 13936 Watching for file changes with StatReloader
+INFO 2026-05-12 08:29:43,741 basehttp 6212 5432 "GET /admin/patients/medicalhistory/ HTTP/1.1" 200 42464
+INFO 2026-05-12 08:29:43,923 basehttp 6212 5432 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:29:45,234 basehttp 6212 5432 "GET /admin/auth/user/ HTTP/1.1" 200 46495
+INFO 2026-05-12 08:29:45,309 basehttp 6212 10768 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2026-05-12 08:29:45,473 basehttp 6212 5432 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:29:48,514 basehttp 6212 5432 "GET /admin/auth/user/add/ HTTP/1.1" 200 43365
+INFO 2026-05-12 08:29:48,550 basehttp 6212 10768 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:29:48,552 basehttp 6212 1092 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:29:48,558 basehttp 6212 1092 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:29:48,756 basehttp 6212 5432 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:30:13,511 basehttp 6212 5432 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2026-05-12 08:30:13,898 basehttp 6212 5432 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 66173
+INFO 2026-05-12 08:30:13,962 basehttp 6212 10768 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:30:13,962 basehttp 6212 1092 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:30:13,977 basehttp 6212 10768 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:30:13,977 basehttp 6212 1092 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2026-05-12 08:30:13,997 basehttp 6212 1092 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-05-12 08:30:14,041 basehttp 6212 5432 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:30:30,391 base 7992 6844 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:30:30,398 base 7992 6844 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 08:30:30,406 base 7992 6844 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 08:30:30,420 base 7992 6844 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 08:30:30,431 base 7992 6844 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:30:30,436 base 7992 6844 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 08:30:30,442 base 7992 6844 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 08:30:30,448 base 7992 6844 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 08:30:30,457 base 7992 6844 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:30:30,463 base 7992 6844 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:30:30,474 base 7992 6844 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 08:30:30,484 base 7992 6844 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:30:30,490 base 7992 6844 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:30:30,496 base 7992 6844 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 08:30:30,501 base 7992 6844 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 08:30:30,511 base 7992 6844 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:30:30,515 base 7992 6844 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:30:30,529 base 7992 6844 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 08:30:30,539 base 7992 6844 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:30:30,545 base 7992 6844 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:30:30,549 base 7992 6844 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 08:30:30,557 base 7992 6844 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 08:30:30,570 base 7992 6844 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:30:30,576 base 7992 6844 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:30:30,585 base 7992 6844 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 08:30:30,593 base 7992 6844 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:30:30,595 base 7992 6844 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 08:30:30,608 base 7992 6844 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 08:30:30,615 base 7992 6844 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 08:30:30,625 base 7992 6844 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:30:30,630 base 7992 6844 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:30:30,682 base 7992 6844 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 08:30:30,693 base 7992 6844 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:30:30,698 base 7992 6844 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:42:12,550 basehttp 6212 7812 "GET /static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 08:42:17,058 basehttp 6212 7812 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2026-05-12 08:42:17,364 basehttp 6212 7812 "GET /admin/auth/user/ HTTP/1.1" 200 47538
+INFO 2026-05-12 08:42:17,480 basehttp 6212 20000 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2026-05-12 08:42:17,499 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:43:50,919 basehttp 6212 7812 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 41182
+INFO 2026-05-12 08:43:52,842 basehttp 6212 7812 "GET /admin/authtoken/tokenproxy/add/ HTTP/1.1" 200 41721
+INFO 2026-05-12 08:43:52,951 basehttp 6212 20000 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-05-12 08:43:52,951 basehttp 6212 1360 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2026-05-12 08:43:53,024 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:00,388 basehttp 6212 7812 "POST /admin/authtoken/tokenproxy/add/ HTTP/1.1" 302 0
+INFO 2026-05-12 08:44:00,657 basehttp 6212 7812 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 43602
+INFO 2026-05-12 08:44:04,176 basehttp 6212 7812 "GET /admin/core/aclmessage/ HTTP/1.1" 200 43600
+INFO 2026-05-12 08:44:04,288 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:07,594 basehttp 6212 7812 "GET /admin/core/agentlog/ HTTP/1.1" 200 97247
+INFO 2026-05-12 08:44:07,814 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:19,240 basehttp 6212 7812 "GET /admin/diagnostics/diagnosticresult/ HTTP/1.1" 200 50639
+INFO 2026-05-12 08:44:19,367 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:21,238 basehttp 6212 7812 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 50147
+INFO 2026-05-12 08:44:21,474 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:24,467 basehttp 6212 7812 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50052
+INFO 2026-05-12 08:44:24,599 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:27,977 basehttp 6212 7812 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 50147
+INFO 2026-05-12 08:44:28,114 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:35,058 basehttp 6212 7812 "GET /admin/patients/medicalhistory/ HTTP/1.1" 200 42462
+INFO 2026-05-12 08:44:35,157 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:37,007 basehttp 6212 7812 "GET /admin/patients/medicalhistory/add/ HTTP/1.1" 200 49009
+INFO 2026-05-12 08:44:37,143 basehttp 6212 7812 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:44:53,348 basehttp 6212 13744 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50052
+INFO 2026-05-12 08:44:53,512 basehttp 6212 13744 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:49:57,278 basehttp 6212 16592 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50052
+INFO 2026-05-12 08:49:57,388 basehttp 6212 16592 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:49:59,662 basehttp 6212 16592 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 50147
+INFO 2026-05-12 08:49:59,798 basehttp 6212 16592 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:50:01,406 basehttp 6212 16592 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50052
+INFO 2026-05-12 08:50:01,518 basehttp 6212 16592 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:50:04,508 basehttp 6212 16592 "GET /admin/django_celery_beat/solarschedule/ HTTP/1.1" 200 39906
+INFO 2026-05-12 08:50:04,747 basehttp 6212 16592 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:50:06,581 basehttp 6212 16592 "GET /admin/django_celery_beat/solarschedule/add/ HTTP/1.1" 200 47751
+INFO 2026-05-12 08:50:06,717 basehttp 6212 19480 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2026-05-12 08:50:06,747 basehttp 6212 16592 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 08:50:06,775 basehttp 6212 19480 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2026-05-12 08:55:07,993 autoreload 6212 13936 D:\MULTIAGENT\apps\patients\admin.py changed, reloading.
+INFO 2026-05-12 08:55:16,754 autoreload 12920 5224 Watching for file changes with StatReloader
+INFO 2026-05-12 08:55:19,325 autoreload 12920 5224 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 08:55:20,691 autoreload 20120 5892 Watching for file changes with StatReloader
+INFO 2026-05-12 08:55:27,357 autoreload 20120 5892 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 08:55:28,711 autoreload 18316 12836 Watching for file changes with StatReloader
+INFO 2026-05-12 08:55:41,887 autoreload 18316 12836 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 08:55:43,282 autoreload 15528 1316 Watching for file changes with StatReloader
+INFO 2026-05-12 08:55:50,898 autoreload 15528 1316 D:\MULTIAGENT\apps\patients\admin.py changed, reloading.
+INFO 2026-05-12 08:55:52,108 autoreload 5616 3936 Watching for file changes with StatReloader
+INFO 2026-05-12 08:55:59,737 autoreload 5616 3936 D:\MULTIAGENT\apps\patients\admin.py changed, reloading.
+INFO 2026-05-12 08:56:00,918 autoreload 16056 13544 Watching for file changes with StatReloader
+INFO 2026-05-12 08:56:09,650 autoreload 16056 13544 D:\MULTIAGENT\apps\patients\admin.py changed, reloading.
+INFO 2026-05-12 08:56:11,000 autoreload 13936 6212 Watching for file changes with StatReloader
+INFO 2026-05-12 08:56:25,199 autoreload 13936 6212 D:\MULTIAGENT\apps\patients\admin.py changed, reloading.
+INFO 2026-05-12 08:56:26,515 autoreload 17700 10328 Watching for file changes with StatReloader
+INFO 2026-05-12 08:56:31,935 autoreload 17700 10328 D:\MULTIAGENT\apps\diagnostics\admin.py changed, reloading.
+INFO 2026-05-12 08:56:33,218 autoreload 20248 20460 Watching for file changes with StatReloader
+INFO 2026-05-12 08:56:44,175 autoreload 20248 20460 D:\MULTIAGENT\apps\agents\admin.py changed, reloading.
+INFO 2026-05-12 08:56:45,414 autoreload 17072 11804 Watching for file changes with StatReloader
+INFO 2026-05-12 08:58:25,222 autoreload 17072 11804 D:\MULTIAGENT\apps\patients\models.py changed, reloading.
+INFO 2026-05-12 08:58:26,644 autoreload 13408 20340 Watching for file changes with StatReloader
+INFO 2026-05-12 08:59:44,788 base 13744 19052 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:59:44,794 base 13744 19052 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 08:59:44,800 base 13744 19052 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 08:59:44,816 base 13744 19052 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 08:59:44,829 base 13744 19052 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:59:44,838 base 13744 19052 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 08:59:44,847 base 13744 19052 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 08:59:44,857 base 13744 19052 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 08:59:44,873 base 13744 19052 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:59:44,885 base 13744 19052 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:59:44,896 base 13744 19052 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 08:59:44,907 base 13744 19052 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:59:44,912 base 13744 19052 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:59:44,919 base 13744 19052 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 08:59:44,924 base 13744 19052 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 08:59:44,935 base 13744 19052 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:59:44,940 base 13744 19052 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:59:44,950 base 13744 19052 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 08:59:44,959 base 13744 19052 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:59:44,964 base 13744 19052 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 08:59:44,970 base 13744 19052 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 08:59:44,975 base 13744 19052 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 08:59:44,987 base 13744 19052 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:59:44,992 base 13744 19052 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:59:45,003 base 13744 19052 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 08:59:45,012 base 13744 19052 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 08:59:45,020 base 13744 19052 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 08:59:45,025 base 13744 19052 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 08:59:45,035 base 13744 19052 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:59:45,041 base 13744 19052 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 08:59:45,062 base 13744 19052 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 08:59:45,072 base 13744 19052 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 08:59:45,078 base 13744 19052 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:00:14,298 basehttp 13408 18308 "GET /admin/django_celery_beat/solarschedule/add/ HTTP/1.1" 200 47752
+INFO 2026-05-12 09:00:14,579 basehttp 13408 18308 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103010
+INFO 2026-05-12 09:00:14,587 basehttp 13408 19044 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2026-05-12 09:00:14,592 basehttp 13408 14704 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 298755
+INFO 2026-05-12 09:00:14,613 basehttp 13408 11244 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 14372
+INFO 2026-05-12 09:00:14,618 basehttp 13408 18308 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-05-12 09:00:14,619 basehttp 13408 14704 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2026-05-12 09:00:14,659 basehttp 13408 8844 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:00:14,660 basehttp 13408 19044 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2026-05-12 09:00:14,661 basehttp 13408 14704 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-05-12 09:00:14,665 basehttp 13408 18308 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2026-05-12 09:00:14,673 basehttp 13408 11244 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2026-05-12 09:00:14,684 basehttp 13408 18308 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-12 09:00:14,694 basehttp 13408 8844 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-05-12 09:00:14,701 basehttp 13408 11244 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-05-12 09:00:14,709 basehttp 13408 18308 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-05-12 09:00:14,715 basehttp 13408 7828 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2026-05-12 09:00:14,715 basehttp 13408 19044 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 09:00:14,754 basehttp 13408 19044 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 18270
+INFO 2026-05-12 09:00:14,756 basehttp 13408 14704 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2026-05-12 09:00:14,760 basehttp 13408 11244 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+INFO 2026-05-12 09:00:14,790 basehttp 13408 14704 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 4542
+INFO 2026-05-12 09:00:14,823 basehttp 13408 14704 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6045
+INFO 2026-05-12 09:00:14,833 basehttp 13408 11244 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2026-05-12 09:00:14,840 basehttp 13408 14704 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 09:00:14,848 basehttp 13408 14704 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2026-05-12 09:00:15,891 basehttp 13408 14704 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2026-05-12 09:00:15,893 basehttp 13408 11244 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2026-05-12 09:00:15,984 basehttp 13408 11244 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 09:00:16,035 basehttp 13408 14704 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+INFO 2026-05-12 09:00:16,100 basehttp 13408 14704 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-12 09:04:05,400 autoreload 14260 17012 Watching for file changes with StatReloader
+INFO 2026-05-12 09:04:10,187 basehttp 14260 10356 "GET / HTTP/1.1" 302 0
+INFO 2026-05-12 09:04:10,700 basehttp 14260 10356 "GET /accounts/login/?next=/ HTTP/1.1" 200 16492
+INFO 2026-05-12 09:04:10,807 basehttp 14260 10356 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 09:04:10,807 basehttp 14260 18152 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 09:04:11,170 basehttp 14260 18152 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 09:04:11,443 basehttp 14260 18152 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+WARNING 2026-05-12 09:04:12,920 log 14260 18152 Not Found: /favicon.ico
+WARNING 2026-05-12 09:04:12,921 basehttp 14260 18152 "GET /favicon.ico HTTP/1.1" 404 18183
+INFO 2026-05-12 09:04:32,924 basehttp 14260 18152 "GET /accounts/login/ HTTP/1.1" 200 16432
+INFO 2026-05-12 09:07:44,776 autoreload 17112 3412 Watching for file changes with StatReloader
+INFO 2026-05-12 09:08:37,788 basehttp 14260 18152 "GET / HTTP/1.1" 302 0
+INFO 2026-05-12 09:08:37,883 basehttp 14260 18152 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:10:08,130 basehttp 14260 18152 "GET / HTTP/1.1" 302 0
+INFO 2026-05-12 09:10:08,210 basehttp 14260 18152 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:10:12,638 basehttp 14260 18152 "GET / HTTP/1.1" 302 0
+INFO 2026-05-12 09:10:12,735 basehttp 14260 18152 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:12:40,223 basehttp 14260 18152 "GET / HTTP/1.1" 302 0
+INFO 2026-05-12 09:12:40,327 basehttp 14260 18152 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+ERROR 2026-05-12 09:13:01,498 log 14260 18152 Internal Server Error: /api/docs/
+ERROR 2026-05-12 09:13:01,500 basehttp 14260 18152 "GET /api/docs/ HTTP/1.1" 500 25
+ERROR 2026-05-12 09:13:06,957 log 14260 18152 Internal Server Error: /api/docs/
+ERROR 2026-05-12 09:13:06,961 basehttp 14260 18152 "GET /api/docs/ HTTP/1.1" 500 25
+INFO 2026-05-12 09:14:48,668 basehttp 14260 7476 "GET / HTTP/1.1" 302 0
+INFO 2026-05-12 09:14:48,785 basehttp 14260 7476 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:16:31,028 autoreload 18724 19160 Watching for file changes with StatReloader
+INFO 2026-05-12 09:19:14,282 basehttp 14260 7476 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:19:18,594 basehttp 14260 7476 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:19:18,642 basehttp 14260 18328 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 09:19:18,643 basehttp 14260 7476 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 09:19:18,696 basehttp 14260 7476 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 09:19:18,706 basehttp 14260 7476 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+WARNING 2026-05-12 09:19:19,025 log 14260 7476 Not Found: /favicon.ico
+WARNING 2026-05-12 09:19:19,026 basehttp 14260 7476 "GET /favicon.ico HTTP/1.1" 404 18182
+INFO 2026-05-12 09:19:21,448 basehttp 14260 7476 "GET /accounts/login/?next=/ HTTP/1.1" 200 16491
+INFO 2026-05-12 09:19:43,811 basehttp 14260 7476 "GET /accounts/login/ HTTP/1.1" 200 16432
+INFO 2026-05-12 09:20:02,143 basehttp 14260 7476 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-12 09:20:02,422 basehttp 14260 7476 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 17335
+INFO 2026-05-12 09:20:02,617 basehttp 14260 10980 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2026-05-12 09:20:02,618 basehttp 14260 20224 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 14372
+INFO 2026-05-12 09:20:02,621 basehttp 14260 7476 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103010
+INFO 2026-05-12 09:20:02,630 basehttp 14260 18328 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 298755
+INFO 2026-05-12 09:20:02,630 basehttp 14260 17676 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2026-05-12 09:20:02,809 basehttp 14260 18328 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 18270
+INFO 2026-05-12 09:20:02,811 basehttp 14260 17676 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+INFO 2026-05-12 09:20:03,006 basehttp 14260 17676 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2026-05-12 09:20:05,732 basehttp 14260 17676 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 17708
+INFO 2026-05-12 09:20:20,688 basehttp 14260 17676 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-05-12 09:20:21,014 basehttp 14260 17676 "GET /admin/ HTTP/1.1" 200 71831
+INFO 2026-05-12 09:20:21,057 basehttp 14260 17676 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 4542
+INFO 2026-05-12 09:20:21,159 basehttp 14260 17676 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2026-05-12 09:20:38,522 basehttp 14260 17676 "GET / HTTP/1.1" 200 22736
+INFO 2026-05-12 09:20:46,319 basehttp 14260 17676 "GET /admin/ HTTP/1.1" 200 71831
+INFO 2026-05-12 09:20:52,303 basehttp 14260 17676 "GET / HTTP/1.1" 200 22734
+INFO 2026-05-12 09:20:54,357 basehttp 14260 17676 "GET /agents/ HTTP/1.1" 200 18669
+INFO 2026-05-12 09:20:58,769 basehttp 14260 17676 "GET / HTTP/1.1" 200 22734
+ERROR 2026-05-12 09:21:26,582 log 14260 17676 Internal Server Error: /api/docs/
+ERROR 2026-05-12 09:21:26,582 basehttp 14260 17676 "GET /api/docs/ HTTP/1.1" 500 25
+INFO 2026-05-12 09:21:30,314 basehttp 14260 17676 - Broken pipe from ('127.0.0.1', 54217)
+INFO 2026-05-12 09:21:30,358 basehttp 14260 18328 "GET /admin/ HTTP/1.1" 200 71842
+ERROR 2026-05-12 09:21:32,947 log 14260 18328 Internal Server Error: /api/docs/
+ERROR 2026-05-12 09:21:32,961 basehttp 14260 18328 "GET /api/docs/ HTTP/1.1" 500 25
+INFO 2026-05-12 09:22:16,014 basehttp 14260 18328 "GET / HTTP/1.1" 200 22734
+INFO 2026-05-12 09:22:22,708 basehttp 14260 18328 "GET /session/session-0573bf8600594f6a/ HTTP/1.1" 200 19392
+INFO 2026-05-12 09:24:37,149 autoreload 14260 17012 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:24:37,165 autoreload 18724 19160 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:24:38,658 autoreload 18516 17404 Watching for file changes with StatReloader
+INFO 2026-05-12 09:24:38,658 autoreload 6476 18364 Watching for file changes with StatReloader
+INFO 2026-05-12 09:24:47,622 autoreload 18516 17404 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:24:47,625 autoreload 6476 18364 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:24:49,006 autoreload 8220 9848 Watching for file changes with StatReloader
+INFO 2026-05-12 09:24:49,013 autoreload 9164 18240 Watching for file changes with StatReloader
+INFO 2026-05-12 09:25:00,037 autoreload 9164 18240 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:25:00,066 autoreload 8220 9848 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:25:01,666 autoreload 17188 19356 Watching for file changes with StatReloader
+INFO 2026-05-12 09:25:01,672 autoreload 3096 19832 Watching for file changes with StatReloader
+INFO 2026-05-12 09:25:07,319 autoreload 3096 19832 D:\MULTIAGENT\apps\dashboard\urls.py changed, reloading.
+INFO 2026-05-12 09:25:07,364 autoreload 17188 19356 D:\MULTIAGENT\apps\dashboard\urls.py changed, reloading.
+INFO 2026-05-12 09:25:08,753 autoreload 2804 14984 Watching for file changes with StatReloader
+INFO 2026-05-12 09:25:08,753 autoreload 7992 6536 Watching for file changes with StatReloader
+INFO 2026-05-12 09:25:19,835 autoreload 7992 6536 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 09:25:19,835 autoreload 2804 14984 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 09:25:21,154 autoreload 1360 1312 Watching for file changes with StatReloader
+INFO 2026-05-12 09:25:21,178 autoreload 10020 16144 Watching for file changes with StatReloader
+INFO 2026-05-12 09:30:57,253 base 7692 11524 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:30:57,259 base 7692 11524 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 09:30:57,275 base 7692 11524 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 09:30:57,292 base 7692 11524 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 09:30:57,306 base 7692 11524 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:30:57,314 base 7692 11524 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 09:30:57,321 base 7692 11524 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 09:30:57,331 base 7692 11524 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 09:30:57,344 base 7692 11524 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:30:57,350 base 7692 11524 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:30:57,361 base 7692 11524 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 09:30:57,372 base 7692 11524 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:30:57,378 base 7692 11524 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 09:30:57,383 base 7692 11524 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 09:30:57,389 base 7692 11524 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 09:30:57,404 base 7692 11524 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:30:57,408 base 7692 11524 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:30:57,416 base 7692 11524 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 09:30:57,425 base 7692 11524 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:30:57,429 base 7692 11524 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 09:30:57,434 base 7692 11524 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 09:30:57,439 base 7692 11524 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 09:30:57,448 base 7692 11524 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:30:57,453 base 7692 11524 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:30:57,462 base 7692 11524 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 09:30:57,471 base 7692 11524 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:30:57,476 base 7692 11524 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 09:30:57,483 base 7692 11524 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 09:30:57,489 base 7692 11524 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 09:30:57,499 base 7692 11524 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:30:57,504 base 7692 11524 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:30:57,552 base 7692 11524 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 09:30:57,561 base 7692 11524 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:30:57,566 base 7692 11524 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:34:50,090 basehttp 1360 19932 "GET / HTTP/1.1" 200 24125
+INFO 2026-05-12 09:35:19,767 base 1360 19932 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:35:19,779 base 1360 19932 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 09:35:19,793 base 1360 19932 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 09:35:19,824 base 1360 19932 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 09:35:19,850 base 1360 19932 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:35:19,863 base 1360 19932 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 09:35:19,876 base 1360 19932 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 09:35:19,893 base 1360 19932 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 09:35:19,922 base 1360 19932 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:35:19,937 base 1360 19932 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:35:19,963 base 1360 19932 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 09:35:19,989 base 1360 19932 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:35:20,004 base 1360 19932 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 09:35:20,019 base 1360 19932 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 09:35:20,034 base 1360 19932 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 09:35:20,060 base 1360 19932 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:35:20,073 base 1360 19932 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:35:20,101 base 1360 19932 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 09:35:20,127 base 1360 19932 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:35:20,141 base 1360 19932 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 09:35:20,158 base 1360 19932 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 09:35:20,178 base 1360 19932 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 09:35:20,204 base 1360 19932 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:35:20,232 base 1360 19932 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:35:20,270 base 1360 19932 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 09:35:20,290 base 1360 19932 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:35:20,298 base 1360 19932 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 09:35:20,307 base 1360 19932 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 09:35:20,320 base 1360 19932 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:35:20,329 base 1360 19932 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:35:20,372 base 1360 19932 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 09:35:20,395 base 1360 19932 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:35:20,409 base 1360 19932 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:35:20,538 basehttp 1360 19932 "POST /diagnostic/start/ HTTP/1.1" 302 0
+INFO 2026-05-12 09:35:20,633 basehttp 1360 19932 "GET /session/session-58872e49b61241c8/ HTTP/1.1" 200 17649
+INFO 2026-05-12 09:35:23,659 basehttp 1360 19932 "GET / HTTP/1.1" 200 24918
+INFO 2026-05-12 09:35:28,860 basehttp 1360 19932 "GET /session/session-58872e49b61241c8/ HTTP/1.1" 200 17649
+INFO 2026-05-12 09:44:36,341 autoreload 1360 1312 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:44:36,391 autoreload 10020 16144 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:44:37,843 autoreload 19272 17608 Watching for file changes with StatReloader
+INFO 2026-05-12 09:44:52,467 autoreload 18756 18972 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:44:52,485 autoreload 19272 17608 D:\MULTIAGENT\apps\dashboard\views.py changed, reloading.
+INFO 2026-05-12 09:44:54,085 autoreload 1292 20432 Watching for file changes with StatReloader
+INFO 2026-05-12 09:44:54,085 autoreload 10684 5324 Watching for file changes with StatReloader
+INFO 2026-05-12 09:53:09,439 basehttp 10684 2372 "GET / HTTP/1.1" 200 51966
+INFO 2026-05-12 09:53:20,243 basehttp 10684 2372 "GET / HTTP/1.1" 200 51966
+INFO 2026-05-12 09:53:26,178 basehttp 10684 2372 "GET /admin/patients/patient/add/ HTTP/1.1" 200 81561
+INFO 2026-05-12 09:53:26,388 basehttp 10684 2372 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2026-05-12 09:53:26,397 basehttp 10684 17748 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2026-05-12 09:53:26,408 basehttp 10684 8428 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2026-05-12 09:53:26,408 basehttp 10684 17132 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-05-12 09:53:26,408 basehttp 10684 16860 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2026-05-12 09:53:26,410 basehttp 10684 2372 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2026-05-12 09:53:26,411 basehttp 10684 17748 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2026-05-12 09:53:26,428 basehttp 10684 17132 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2026-05-12 09:53:26,428 basehttp 10684 16860 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2026-05-12 09:53:26,428 basehttp 10684 8428 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-05-12 09:53:26,433 basehttp 10684 17748 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-05-12 09:53:26,443 basehttp 10684 17132 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-05-12 09:53:26,459 basehttp 10684 2372 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2026-05-12 09:53:26,501 basehttp 10684 19024 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:53:26,627 basehttp 10684 19024 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-05-12 09:53:26,628 basehttp 10684 2372 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2026-05-12 09:53:26,642 basehttp 10684 2372 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2026-05-12 09:53:26,643 basehttp 10684 19024 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-05-12 09:53:26,666 basehttp 10684 17132 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6045
+INFO 2026-05-12 09:53:26,667 basehttp 10684 19024 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-05-12 09:53:26,670 basehttp 10684 2372 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2026-05-12 09:53:28,252 basehttp 10684 2372 "GET /static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 117852
+INFO 2026-05-12 09:53:34,007 basehttp 10684 2372 "GET /admin/patients/patient/ HTTP/1.1" 200 49506
+INFO 2026-05-12 09:53:34,064 basehttp 10684 19024 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2026-05-12 09:53:34,064 basehttp 10684 17132 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2205
+INFO 2026-05-12 09:53:34,113 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:53:40,256 basehttp 10684 2372 "GET /admin/auth/user/ HTTP/1.1" 200 46620
+INFO 2026-05-12 09:53:40,311 basehttp 10684 19024 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2026-05-12 09:53:40,372 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:53:48,155 basehttp 10684 2372 "GET /admin/patients/symptom/ HTTP/1.1" 200 43006
+INFO 2026-05-12 09:53:48,262 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:53:50,040 basehttp 10684 2372 "GET /admin/patients/symptom/add/ HTTP/1.1" 200 49973
+INFO 2026-05-12 09:53:50,115 basehttp 10684 8428 "GET /static/admin/js/autocomplete.js HTTP/1.1" 200 1060
+INFO 2026-05-12 09:53:50,116 basehttp 10684 17132 "GET /static/admin/css/autocomplete.css HTTP/1.1" 200 9114
+INFO 2026-05-12 09:53:50,117 basehttp 10684 19024 "GET /static/admin/css/vendor/select2/select2.css HTTP/1.1" 200 17358
+INFO 2026-05-12 09:53:50,130 basehttp 10684 17748 "GET /static/admin/js/vendor/select2/select2.full.js HTTP/1.1" 200 173566
+INFO 2026-05-12 09:53:50,179 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:53:53,989 basehttp 10684 2372 "GET /admin/autocomplete/?app_label=patients&model_name=symptom&field_name=patient HTTP/1.1" 200 84
+INFO 2026-05-12 09:53:54,223 basehttp 10684 2372 "GET /__debug__/history_sidebar/?request_id=7919a47e748c42298f6b85f261ee347e HTTP/1.1" 200 10566
+INFO 2026-05-12 09:54:34,118 base 10684 2372 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:54:34,135 base 10684 2372 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 09:54:34,154 base 10684 2372 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 09:54:34,189 base 10684 2372 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 09:54:34,217 base 10684 2372 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:54:34,226 base 10684 2372 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 09:54:34,238 base 10684 2372 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 09:54:34,250 base 10684 2372 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 09:54:34,271 base 10684 2372 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:54:34,282 base 10684 2372 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:54:34,306 base 10684 2372 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 09:54:34,331 base 10684 2372 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:54:34,344 base 10684 2372 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 09:54:34,359 base 10684 2372 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 09:54:34,375 base 10684 2372 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 09:54:34,396 base 10684 2372 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:54:34,405 base 10684 2372 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:54:34,423 base 10684 2372 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 09:54:34,440 base 10684 2372 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:54:34,451 base 10684 2372 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 09:54:34,459 base 10684 2372 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 09:54:34,473 base 10684 2372 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 09:54:34,487 base 10684 2372 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:54:34,495 base 10684 2372 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:54:34,509 base 10684 2372 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 09:54:34,521 base 10684 2372 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 09:54:34,529 base 10684 2372 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 09:54:34,537 base 10684 2372 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 09:54:34,552 base 10684 2372 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 09:54:34,564 base 10684 2372 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:54:34,572 base 10684 2372 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:54:34,692 base 10684 2372 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 09:54:34,715 base 10684 2372 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 09:54:34,727 base 10684 2372 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 09:54:34,782 basehttp 10684 2372 "POST /diagnostic/start/ HTTP/1.1" 302 0
+INFO 2026-05-12 09:54:34,861 basehttp 10684 2372 "GET /session/session-45cf086466ff4160/ HTTP/1.1" 200 19287
+INFO 2026-05-12 09:54:50,030 basehttp 10684 2372 "GET /admin/ HTTP/1.1" 200 72370
+INFO 2026-05-12 09:54:54,932 basehttp 10684 2372 "GET /admin/agents/agentstate/ HTTP/1.1" 200 47724
+INFO 2026-05-12 09:54:55,054 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:54:58,864 basehttp 10684 2372 "GET /admin/auth/group/ HTTP/1.1" 200 39795
+INFO 2026-05-12 09:54:58,984 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:00,474 basehttp 10684 2372 "GET /admin/auth/user/ HTTP/1.1" 200 46620
+INFO 2026-05-12 09:55:00,596 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:03,413 basehttp 10684 2372 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 65315
+INFO 2026-05-12 09:55:03,476 basehttp 10684 17748 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2026-05-12 09:55:03,491 basehttp 10684 19024 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2026-05-12 09:55:03,562 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:07,383 basehttp 10684 2372 "GET /admin/core/aclmessage/ HTTP/1.1" 200 43209
+INFO 2026-05-12 09:55:07,549 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:09,933 basehttp 10684 2372 "GET /admin/core/agentlog/ HTTP/1.1" 200 96972
+INFO 2026-05-12 09:55:10,045 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:21,183 basehttp 10684 2372 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 50148
+INFO 2026-05-12 09:55:21,333 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:25,098 basehttp 10684 2372 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50228
+INFO 2026-05-12 09:55:25,213 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:32,271 basehttp 10684 2372 "GET /admin/diagnostics/diseasepattern/add/ HTTP/1.1" 200 54043
+INFO 2026-05-12 09:55:32,386 basehttp 10684 2372 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:55:46,338 basehttp 10684 2372 - Broken pipe from ('127.0.0.1', 59019)
+INFO 2026-05-12 09:55:46,367 basehttp 10684 19024 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50232
+INFO 2026-05-12 09:55:46,477 basehttp 10684 19024 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:56:00,013 basehttp 10684 19024 "GET /admin/diagnostics/diagnosticsession/ HTTP/1.1" 200 50148
+INFO 2026-05-12 09:56:00,126 basehttp 10684 19024 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:56:01,667 basehttp 10684 19024 "GET /admin/diagnostics/diseasepattern/ HTTP/1.1" 200 50228
+INFO 2026-05-12 09:56:01,773 basehttp 10684 19024 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:56:55,910 basehttp 10684 17748 "GET /admin/account/emailaddress/ HTTP/1.1" 200 41048
+INFO 2026-05-12 09:56:55,934 basehttp 10684 19024 - Broken pipe from ('127.0.0.1', 49930)
+INFO 2026-05-12 09:56:56,032 basehttp 10684 17748 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:56:57,416 basehttp 10684 17748 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 40226
+INFO 2026-05-12 09:56:57,562 basehttp 10684 17748 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:57:00,626 basehttp 10684 17748 "GET /admin/patients/patient/ HTTP/1.1" 200 49506
+INFO 2026-05-12 09:57:00,735 basehttp 10684 17748 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:57:21,490 basehttp 10684 17748 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 42652
+INFO 2026-05-12 09:57:29,594 basehttp 10684 17748 "GET /admin/patients/symptom/ HTTP/1.1" 200 43006
+INFO 2026-05-12 09:57:29,700 basehttp 10684 17748 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 09:57:31,152 basehttp 10684 17748 "GET /admin/patients/symptom/add/ HTTP/1.1" 200 49973
+INFO 2026-05-12 09:57:31,245 basehttp 10684 17748 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+ERROR 2026-05-12 09:57:45,102 log 10684 17748 Internal Server Error: /api/docs/
+ERROR 2026-05-12 09:57:45,104 basehttp 10684 17748 "GET /api/docs/ HTTP/1.1" 500 25
+INFO 2026-05-12 09:58:03,322 basehttp 10684 17748 "GET / HTTP/1.1" 200 52420
+INFO 2026-05-12 09:58:52,966 basehttp 10684 17748 - Broken pipe from ('127.0.0.1', 52997)
+INFO 2026-05-12 09:58:52,967 basehttp 10684 20304 "GET /agents/ HTTP/1.1" 200 18625
+INFO 2026-05-12 09:59:03,916 basehttp 10684 20304 "GET / HTTP/1.1" 200 52421
+INFO 2026-05-12 09:59:06,095 basehttp 10684 20304 "GET /admin/ HTTP/1.1" 200 71867
+INFO 2026-05-12 09:59:41,839 basehttp 10684 20304 "GET /agents/ HTTP/1.1" 200 18625
+INFO 2026-05-12 09:59:45,424 basehttp 10684 20304 "GET / HTTP/1.1" 200 52420
+INFO 2026-05-12 10:01:36,395 autoreload 1292 20432 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 10:01:37,190 autoreload 10684 5324 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 10:01:38,019 autoreload 5064 20448 Watching for file changes with StatReloader
+INFO 2026-05-12 10:01:38,658 autoreload 4328 9776 Watching for file changes with StatReloader
+INFO 2026-05-12 10:01:42,576 autoreload 4328 9776 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 10:01:42,604 autoreload 5064 20448 D:\MULTIAGENT\config\urls.py changed, reloading.
+INFO 2026-05-12 10:01:43,923 autoreload 17796 19788 Watching for file changes with StatReloader
+INFO 2026-05-12 10:01:43,923 autoreload 880 17816 Watching for file changes with StatReloader
+INFO 2026-05-12 10:05:36,609 basehttp 17796 13420 "GET / HTTP/1.1" 200 54252
+INFO 2026-05-12 10:06:01,256 basehttp 17796 13420 "GET /admin/patients/patient/ HTTP/1.1" 200 56217
+INFO 2026-05-12 10:06:01,466 basehttp 17796 13420 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 10:06:06,281 basehttp 17796 13420 "GET /admin/patients/patient/16/change/ HTTP/1.1" 200 82589
+INFO 2026-05-12 10:06:06,473 basehttp 17796 13420 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 10:06:47,352 basehttp 17796 13420 "POST /admin/patients/patient/16/change/ HTTP/1.1" 302 0
+INFO 2026-05-12 10:06:47,636 basehttp 17796 13420 "GET /admin/patients/patient/ HTTP/1.1" 200 56746
+INFO 2026-05-12 10:06:47,782 basehttp 17796 13420 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 10:06:58,840 basehttp 17796 13420 "GET /admin/patients/symptom/ HTTP/1.1" 200 43006
+INFO 2026-05-12 10:06:58,999 basehttp 17796 13420 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 10:07:01,285 basehttp 17796 13420 "GET /admin/patients/symptom/ HTTP/1.1" 200 43006
+INFO 2026-05-12 10:07:01,391 basehttp 17796 13420 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+ERROR 2026-05-12 10:07:04,616 log 17796 13420 Internal Server Error: /api/docs/
+ERROR 2026-05-12 10:07:04,616 basehttp 17796 13420 "GET /api/docs/ HTTP/1.1" 500 25
+INFO 2026-05-12 10:07:12,848 basehttp 17796 13420 - Broken pipe from ('127.0.0.1', 64972)
+INFO 2026-05-12 10:07:12,886 basehttp 17796 12928 "GET / HTTP/1.1" 200 54252
+INFO 2026-05-12 10:07:15,848 basehttp 17796 12928 "GET /admin/ HTTP/1.1" 200 73366
+ERROR 2026-05-12 10:07:18,661 log 17796 12928 Internal Server Error: /api/docs/
+ERROR 2026-05-12 10:07:18,664 basehttp 17796 12928 "GET /api/docs/ HTTP/1.1" 500 25
+INFO 2026-05-12 10:09:29,459 base 17796 12928 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:09:29,467 base 17796 12928 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 10:09:29,474 base 17796 12928 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 10:09:29,495 base 17796 12928 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 10:09:29,512 base 17796 12928 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:09:29,522 base 17796 12928 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 10:09:29,530 base 17796 12928 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 10:09:29,540 base 17796 12928 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 10:09:29,562 base 17796 12928 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:09:29,575 base 17796 12928 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:09:29,604 base 17796 12928 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 10:09:29,633 base 17796 12928 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:09:29,652 base 17796 12928 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 10:09:29,669 base 17796 12928 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 10:09:29,684 base 17796 12928 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 10:09:29,703 base 17796 12928 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:09:29,711 base 17796 12928 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:09:29,737 base 17796 12928 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 10:09:29,756 base 17796 12928 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:09:29,765 base 17796 12928 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 10:09:29,774 base 17796 12928 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 10:09:29,785 base 17796 12928 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 10:09:29,797 base 17796 12928 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:09:29,803 base 17796 12928 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:09:29,816 base 17796 12928 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 10:09:29,829 base 17796 12928 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:09:29,838 base 17796 12928 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 10:09:29,844 base 17796 12928 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 10:09:29,853 base 17796 12928 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 10:09:29,864 base 17796 12928 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:09:29,871 base 17796 12928 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:09:29,983 base 17796 12928 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 10:09:29,994 base 17796 12928 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:09:30,002 base 17796 12928 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:09:30,052 basehttp 17796 12928 "POST /diagnostic/start/ HTTP/1.1" 302 0
+INFO 2026-05-12 10:09:30,118 basehttp 17796 12928 "GET /session/session-4dee2335099340b5/ HTTP/1.1" 200 21120
+INFO 2026-05-12 10:09:52,861 basehttp 17796 12928 "GET / HTTP/1.1" 200 55054
+INFO 2026-05-12 10:14:07,046 basehttp 17796 12928 "GET /admin/patients/symptom/ HTTP/1.1" 200 43007
+INFO 2026-05-12 10:14:10,443 basehttp 17796 12928 - Broken pipe from ('127.0.0.1', 58779)
+INFO 2026-05-12 10:14:10,478 basehttp 17796 10232 "GET / HTTP/1.1" 200 54717
+INFO 2026-05-12 10:14:10,547 basehttp 17796 10232 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 10:14:10,547 basehttp 17796 19716 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 10:14:10,698 basehttp 17796 19716 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 10:14:10,700 basehttp 17796 10232 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 10:14:14,862 basehttp 17796 10232 "GET / HTTP/1.1" 200 54716
+INFO 2026-05-12 10:14:42,001 base 17796 10232 [coordinator_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:14:42,008 base 17796 10232 [coordinator_agent] Vazifa boshlandi
+INFO 2026-05-12 10:14:42,019 base 17796 10232 [coordinator_agent] Diagnostika jarayoni boshlandi
+INFO 2026-05-12 10:14:42,041 base 17796 10232 [coordinator_agent] 1/4: Simptomlar tahlili
+INFO 2026-05-12 10:14:42,065 base 17796 10232 [symptom_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:14:42,080 base 17796 10232 [symptom_agent] Vazifa boshlandi
+INFO 2026-05-12 10:14:42,099 base 17796 10232 [symptom_agent] Simptomlarni tahlil qilish boshlandi
+INFO 2026-05-12 10:14:42,125 base 17796 10232 [symptom_agent] Simptomlar tahlili yakunlandi
+INFO 2026-05-12 10:14:42,153 base 17796 10232 [symptom_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:14:42,165 base 17796 10232 [symptom_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:14:42,188 base 17796 10232 [coordinator_agent] 2/4: Tahlillar baholash
+INFO 2026-05-12 10:14:42,209 base 17796 10232 [analysis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:14:42,218 base 17796 10232 [analysis_agent] Vazifa boshlandi
+INFO 2026-05-12 10:14:42,227 base 17796 10232 [analysis_agent] Tahlillarni baholash boshlandi
+INFO 2026-05-12 10:14:42,236 base 17796 10232 [analysis_agent] Tahlillar baholandi
+INFO 2026-05-12 10:14:42,253 base 17796 10232 [analysis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:14:42,263 base 17796 10232 [analysis_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:14:42,282 base 17796 10232 [coordinator_agent] 3/4: Diagnoz qo'yish
+INFO 2026-05-12 10:14:42,300 base 17796 10232 [diagnosis_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:14:42,316 base 17796 10232 [diagnosis_agent] Vazifa boshlandi
+INFO 2026-05-12 10:14:42,330 base 17796 10232 [diagnosis_agent] Diagnoz qo'yish boshlandi
+INFO 2026-05-12 10:14:42,354 base 17796 10232 [diagnosis_agent] Diagnoz qo'yildi
+INFO 2026-05-12 10:14:42,388 base 17796 10232 [diagnosis_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:14:42,398 base 17796 10232 [diagnosis_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:14:42,414 base 17796 10232 [coordinator_agent] 4/4: Davolash rejasi
+INFO 2026-05-12 10:14:42,430 base 17796 10232 [treatment_agent] Holat o'zgartirildi: PROCESSING
+INFO 2026-05-12 10:14:42,443 base 17796 10232 [treatment_agent] Vazifa boshlandi
+INFO 2026-05-12 10:14:42,454 base 17796 10232 [treatment_agent] Davolash rejasini yaratish boshlandi
+INFO 2026-05-12 10:14:42,465 base 17796 10232 [treatment_agent] Davolash rejasi yaratildi
+INFO 2026-05-12 10:14:42,484 base 17796 10232 [treatment_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:14:42,500 base 17796 10232 [treatment_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:14:42,660 base 17796 10232 [coordinator_agent] Diagnostika jarayoni yakunlandi
+INFO 2026-05-12 10:14:42,690 base 17796 10232 [coordinator_agent] Holat o'zgartirildi: COMPLETED
+INFO 2026-05-12 10:14:42,711 base 17796 10232 [coordinator_agent] Vazifa yakunlandi
+INFO 2026-05-12 10:14:42,848 basehttp 17796 10232 "POST /diagnostic/start/ HTTP/1.1" 302 0
+INFO 2026-05-12 10:14:43,008 basehttp 17796 9972 "GET /session/session-2d0ac2b306054314/ HTTP/1.1" 200 21249
+INFO 2026-05-12 11:50:29,475 basehttp 17796 7120 "GET /admin/ HTTP/1.1" 200 73881
+INFO 2026-05-12 11:50:37,941 basehttp 17796 7120 "GET /admin/ HTTP/1.1" 200 73377
+INFO 2026-05-12 13:28:13,399 autoreload 11184 19000 Watching for file changes with StatReloader
+INFO 2026-05-12 13:28:20,868 basehttp 11184 21000 "GET / HTTP/1.1" 200 55196
+INFO 2026-05-12 13:28:21,124 basehttp 11184 21404 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:28:21,124 basehttp 11184 21000 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-05-12 13:28:21,824 basehttp 11184 21404 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:28:21,824 basehttp 11184 21000 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-05-12 13:30:59,650 basehttp 11184 21000 "GET / HTTP/1.1" 200 55195
+INFO 2026-05-12 13:33:06,956 basehttp 11184 21000 "GET / HTTP/1.1" 200 55195
+INFO 2026-05-12 13:33:25,705 basehttp 11184 21000 "GET / HTTP/1.1" 200 55194
+INFO 2026-05-12 13:33:25,865 basehttp 11184 21000 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 13:33:25,995 basehttp 11184 16180 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 13:33:26,505 basehttp 11184 16180 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 13:33:26,611 basehttp 11184 21000 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+WARNING 2026-05-12 13:33:27,202 log 11184 21000 Not Found: /favicon.ico
+WARNING 2026-05-12 13:33:27,205 basehttp 11184 21000 "GET /favicon.ico HTTP/1.1" 404 18372
+INFO 2026-05-12 13:33:33,601 basehttp 11184 21000 "GET / HTTP/1.1" 200 55194
+INFO 2026-05-12 13:33:47,357 basehttp 11184 21000 "GET /admin/ HTTP/1.1" 200 73379
+INFO 2026-05-12 13:33:50,512 basehttp 11184 21000 "GET / HTTP/1.1" 200 55194
+INFO 2026-05-12 13:34:20,820 basehttp 11184 21000 "GET / HTTP/1.1" 200 55194
+INFO 2026-05-12 13:37:25,404 basehttp 11184 21000 "GET / HTTP/1.1" 200 55195
+INFO 2026-05-12 13:37:28,968 basehttp 11184 21000 "GET / HTTP/1.1" 200 55194
+INFO 2026-05-12 13:37:29,116 basehttp 11184 21000 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-05-12 13:37:29,116 basehttp 11184 16180 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-05-12 13:37:29,967 basehttp 11184 16180 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-05-12 13:37:29,980 basehttp 11184 16180 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+WARNING 2026-05-12 13:37:30,627 log 11184 16180 Not Found: /favicon.ico
+WARNING 2026-05-12 13:37:30,627 basehttp 11184 16180 "GET /favicon.ico HTTP/1.1" 404 18372
+INFO 2026-05-12 13:38:58,685 basehttp 11184 16180 "GET / HTTP/1.1" 200 54789
+INFO 2026-05-12 13:39:14,386 basehttp 11184 16180 "GET /admin/patients/patient/add/ HTTP/1.1" 200 81562
+INFO 2026-05-12 13:39:14,781 basehttp 11184 16180 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,789 basehttp 11184 21000 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,789 basehttp 11184 16180 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,817 basehttp 11184 13596 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,821 basehttp 11184 21000 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,823 basehttp 11184 23456 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,828 basehttp 11184 19572 "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,828 basehttp 11184 14428 "GET /static/admin/js/collapse.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,836 basehttp 11184 13596 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,844 basehttp 11184 23456 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,844 basehttp 11184 21000 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,847 basehttp 11184 19572 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,856 basehttp 11184 14428 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,880 basehttp 11184 23456 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,880 basehttp 11184 13596 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,890 basehttp 11184 19572 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,895 basehttp 11184 21000 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:14,896 basehttp 11184 14428 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,023 basehttp 11184 16180 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 13:39:15,066 basehttp 11184 16180 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,066 basehttp 11184 14428 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,085 basehttp 11184 16180 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,085 basehttp 11184 14428 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,124 basehttp 11184 19572 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,124 basehttp 11184 21000 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,124 basehttp 11184 13596 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,124 basehttp 11184 16180 "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,124 basehttp 11184 23456 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,129 basehttp 11184 14428 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,234 basehttp 11184 14428 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:15,234 basehttp 11184 23456 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:17,604 basehttp 11184 14428 "GET /static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:21,529 basehttp 11184 14428 "GET /admin/patients/patient/ HTTP/1.1" 200 56218
+INFO 2026-05-12 13:39:21,672 basehttp 11184 23456 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:21,677 basehttp 11184 16180 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2026-05-12 13:39:21,771 basehttp 11184 14428 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 14:28:44,473 basehttp 11184 11252 "GET /admin/ HTTP/1.1" 200 73380
+INFO 2026-05-12 14:28:48,191 basehttp 11184 11252 "GET / HTTP/1.1" 200 54788
+INFO 2026-05-12 14:28:53,912 basehttp 11184 11252 "GET /admin/ HTTP/1.1" 200 73379
+INFO 2026-05-12 14:28:55,951 basehttp 11184 11252 "GET /admin/ HTTP/1.1" 200 73379
+INFO 2026-05-12 14:29:02,122 basehttp 11184 11252 "GET /admin/agents/agentstate/ HTTP/1.1" 200 47729
+INFO 2026-05-12 14:29:02,354 basehttp 11184 11252 "GET /admin/jsi18n/ HTTP/1.1" 200 6254
+INFO 2026-05-12 14:54:25,455 basehttp 11184 10508 "GET / HTTP/1.1" 200 54788
